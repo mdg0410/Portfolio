@@ -14,6 +14,7 @@
   - [Install](#install)
   - [Usage](#usage)
 - [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -99,6 +100,18 @@ To run the project:
 - GitHub: [@mdg0410](https://github.com/mdg0410/)
 - Twitter: [@StevenLevoyer](https://twitter.com/StevenLevoyer)
 - LinkedIn: [Richard Steven Levoyer Chavez](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> Features to be added to the project.
+
+- [ ] **Add Recent Works section to index.**
+- [ ] **Add About me section to the index**
+- [ ] **Add Form section to index**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
