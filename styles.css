@@ -19,4 +19,130 @@
     top: 0;
     background: #fff;
   }
+
+  .header-shapes {
+    position: absolute;
+    width: 462px;
+    height: 587.15px;
+    left: -44px;
+    top: 60px;
+  }
+
+  /* Toolbar */
+
+  .toolbar {
+    position: absolute;
+    height: 48px;
+    width: 375px;
+    left: 0;
+    top: 0;
+    border-radius: 0;
+  }
+
+  .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 12px;
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    left: 12px;
+  }
+
+  .logo a {
+    text-decoration: none;
+  }
+
+  .my-logo {
+    width: 76px;
+    height: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.5px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
+  }
+
+  .normal-button {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 8px;
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    right: 24px;
+  }
+
+  .button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+  }
+
+  /* Menu */
+
+  .offcanvas-header {
+    position: relative;
+    width: auto;
+    height: 92px;
+    background: #6070ff;
+  }
+
+  .btn-close {
+    margin-left: 90%;
+  }
+
+  .offcanvas-body {
+    position: relative;
+    width: auto;
+    height: 628px;
+    background: #6070ff;
+  }
+
+  .menu-items {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+    position: absolute;
+    width: 351px;
+    height: 184px;
+    left: 12px;
+    top: 1vh;
+  }
+
+  .offcanvas-body a {
+    text-decoration: none;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .offcanvas-body span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3vh;
+    height: 24px;
+    left: 0;
+    right: 68px;
+    top: calc(50% - 24px);
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #fff;
+  }
+
 }
