@@ -47,6 +47,8 @@ We make use of Flexbox, we incorporate linters to the project, we use GitHub flo
 
 ### Preview <a name="preview"></a>
 
+<img src="./img/Headline.png" alt="Employee data" title="Employee Data title">
+
 
 <!-- GETTING STARTED -->
 
