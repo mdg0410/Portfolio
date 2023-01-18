@@ -12,7 +12,7 @@
   }
 
   .container {
-    display:flex;
+    display: flex;
     width: 375px;
     height: 672px;
     left: 0;
@@ -100,7 +100,7 @@
   .menu-items {
     list-style-type: none;
     text-align: center;
-    }
+  }
 
   .offcanvas-body a {
     text-decoration: none;
@@ -129,7 +129,6 @@
     left: calc(50% - 187.5px);
     top: 48px;
     background-image: url(./img/header-shapes_mobile.svg);
-
   }
 
   .primary-text-header {
@@ -170,10 +169,10 @@
     height: 24px;
   }
 
-  .social-media a{
+  .social-media a {
     text-decoration: none;
   }
-  
+
   .supporting-text {
     display: flex;
     flex-direction: row;
@@ -206,7 +205,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-
   }
 
   .header-icons li {
