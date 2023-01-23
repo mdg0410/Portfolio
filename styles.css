@@ -316,9 +316,6 @@
   }
 
   .list-tag {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     width: 220px;
     height: 24px;
     padding-left: 1px;
@@ -327,12 +324,10 @@
   }
 
   .list-tag li {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    float: left;
     padding: 4px 12px;
-    margin-right: 2vh;
     background: #ebebff;
+    margin-right: 2vh;
     border-radius: 8px;
   }
 
