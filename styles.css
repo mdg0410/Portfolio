@@ -327,7 +327,6 @@
   }
 
   .list-tag li {
-    float: left;
     display: flex;
     flex-direction: row;
     align-items: center;
