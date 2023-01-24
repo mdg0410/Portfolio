@@ -48,7 +48,7 @@ We make use of Flexbox, we incorporate linters to the project, we use GitHub flo
 
 ### Preview <a name="preview"></a>
 
-<img src="./img/Headline.png" alt="Employee data" title="Employee Data title">
+<img src="./img/Mobile_version.png" alt="Employee data" title="Employee Data title">
 
 
 <!-- GETTING STARTED -->
@@ -109,9 +109,7 @@ To run the project:
 
 > Features to be added to the project.
 
-- [ ] **Add Recent Works section to index.**
-- [ ] **Add About me section to the index**
-- [ ] **Add Form section to index**
+- [ ] **Add Desktop Version Portfolio**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
