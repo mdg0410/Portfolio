@@ -554,37 +554,36 @@
     flex-direction: column;
     align-items: center;
     height: 779px;
-    background: #6070FF;
+    background: #6070ff;
     background-image: url(./img/contact\ form\ shapes-mobile.svg);
-    background-position: 153px 0px;
+    background-position: 153px 0;
     background-repeat: no-repeat;
   }
 
   .primary-text-contact-me {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 52px;
-    color: #FFFFFF;
+    color: #fff;
     margin-top: 103px;
-
   }
 
   .secondary-text-contact {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #EBEBFF;
+    color: #ebebff;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 35px;
   }
 
-  /*Contac Me*/
+  /* Contac Me */
 
   .form-contact-me {
     display: flex;
@@ -593,7 +592,7 @@
   }
 
   .input {
-    border: 1px solid #CFD8DC;
+    border: 1px solid #cfd8dc;
     border-radius: 8px;
     height: 48px;
     width: 327px;
@@ -617,7 +616,7 @@
     gap: 10px;
     border: 1px solid #6070ff;
     border-radius: 8px;
-    background-color: #FFFFFF;
+    background-color: #fff;
     color: #6070ff;
     margin-left: -200px;
   }
@@ -634,5 +633,4 @@
     border-radius: 8px;
     color: #fff;
   }
-
 }
