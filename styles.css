@@ -327,7 +327,7 @@
     float: left;
     padding: 4px 12px;
     background: #ebebff;
-    margin-right: 2vh;
+    margin-right: 5vh;
     border-radius: 8px;
   }
 
@@ -547,5 +547,38 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #6070FF;
+    background-image: url(./img/contact\ form\ shapes-mobile.svg);
+    background-position: 153px 0px;
+    background-repeat: no-repeat;
+  }
+
+  .primary-text-contact-me {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #FFFFFF;
+    margin-top: 103px;
+    
+  }
+
+  .secondary-text-contact-me {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #EBEBFF;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
