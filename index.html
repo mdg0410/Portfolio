@@ -317,14 +317,13 @@
     <div class="contact-me">
       <h2 class="primary-text-contact-me"> Contact me</h2>
       <p class="secondary-text-contact">If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with</p> 
-    <form action="https://formspree.io/f/{form_id}" method="post">
-      <label for="name">Your name</label>
-      <input name="name" id="name" type="name">
-      <label for="email">Your Email</label>
-      <input name="Email" id="email" type="email">
-      <label for="message">Write your message here</label>
-      <input name="message" id="message" type="message">
-      <button type="submit">Get in touch</button>
+    <form class="form-contact-me" action="#" method="post">
+      <input class="input" name="name" id="name" type="name" placeholder="Enter your name" pattern="[A-Za-z/ ]{0,30}" required>
+      <input class="input" name="Email" id="email" type="email" placeholder="Enter your email" required>
+      <textarea class="input" name="message" id="message" placeholder="Write your message here"></textarea>
+      <button class="submit-button" id="form-submit" type="submit">
+        <p class="text-a">Get in touch</p>
+      </button>
     </form>
   </div>
   </footer>

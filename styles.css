@@ -4,7 +4,7 @@
   .body {
     position: relative;
     width: 375px;
-    height: 5410px;
+    height: 5610px;
     background: rgba(232, 232, 232, 0.875);
     overflow-x: hidden;
     margin-left: auto;
@@ -327,7 +327,7 @@
     float: left;
     padding: 4px 12px;
     background: #ebebff;
-    margin-right: 5vh;
+    margin-right: 1vh;
     border-radius: 8px;
   }
 
@@ -553,6 +553,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 779px;
     background: #6070FF;
     background-image: url(./img/contact\ form\ shapes-mobile.svg);
     background-position: 153px 0px;
@@ -580,5 +581,56 @@
     color: #EBEBFF;
     margin-left: 24px;
     margin-right: 24px;
+    margin-bottom: 35px;
   }
+
+  .form-contact-me{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input{
+    border: 1px solid #CFD8DC;
+border-radius: 8px;
+height: 48px;
+width: 327px;
+margin-bottom: 20px;
+padding-left: 15px;
+  }
+
+  #message{
+    height: 170px;
+    width: 327px;
+    padding-top: 10px;
+  }
+
+  .submit-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+    margin-right: auto;
+    height: 48px;
+    padding: 12px;
+    gap: 10px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    color: #6070ff;
+  }
+
+  .submit-button:hover {
+    background: #2230d2;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .submit-button:active {
+    background: #6070ff;
+    border-radius: 8px;
+    color: #fff;
+  }
+
 }
