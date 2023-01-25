@@ -4,7 +4,6 @@
   .body {
     position: relative;
     width: 375px;
-    height: 5410px;
     background: rgba(232, 232, 232, 0.875);
     overflow-x: hidden;
     margin-left: auto;
@@ -316,9 +315,6 @@
   }
 
   .list-tag {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     width: 220px;
     height: 24px;
     padding-left: 1px;
@@ -328,12 +324,9 @@
 
   .list-tag li {
     float: left;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 4px 12px;
-    margin-right: 2vh;
     background: #ebebff;
+    margin-right: 1vh;
     border-radius: 8px;
   }
 
@@ -553,5 +546,93 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 779px;
+    background: #6070ff;
+    background-image: url(./img/contact\ form\ shapes-mobile.svg);
+    background-position: 153px 0;
+    background-repeat: no-repeat;
+  }
+
+  .primary-text-contact-me {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+    margin-top: 103px;
+  }
+
+  .secondary-text-contact {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 35px;
+  }
+
+  /* Contac Me */
+
+  .form-contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .input {
+    border: 1px solid #cfd8dc;
+    border-radius: 8px;
+    height: 48px;
+    width: 327px;
+    margin-bottom: 20px;
+    padding-left: 15px;
+  }
+
+  #message {
+    height: 170px;
+    width: 327px;
+    padding-top: 10px;
+  }
+
+  .submit-button {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: auto;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #6070ff;
+    margin-left: -210px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .submit-button:hover {
+    background: #2230d2;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .submit-button:active {
+    background: #6070ff;
+    border-radius: 8px;
+    color: #fff;
   }
 }
