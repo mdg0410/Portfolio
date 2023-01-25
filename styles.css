@@ -4,7 +4,6 @@
   .body {
     position: relative;
     width: 375px;
-    height: 5610px;
     background: rgba(232, 232, 232, 0.875);
     overflow-x: hidden;
     margin-left: auto;
@@ -618,7 +617,10 @@
     border-radius: 8px;
     background-color: #fff;
     color: #6070ff;
-    margin-left: -200px;
+    margin-left: -210px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
   }
 
   .submit-button:hover {
