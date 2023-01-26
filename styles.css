@@ -188,6 +188,10 @@
     margin-right: 15px;
   }
 
+  .sm-icons:hover {
+    transform: scale(1.5);
+  }
+
   /* Works */
 
   .work {
@@ -1005,6 +1009,7 @@ font-style: normal;
 font-weight: 500;
 font-size: 17px;
 line-height: 24px;
+ transition: all 300ms ease-in-out;
   }
 
   .action-button:hover {
