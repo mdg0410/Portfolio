@@ -187,7 +187,7 @@
     display: flex;
     list-style-type: none;
     padding: 0;
-    gap:15%
+    gap: 15%;
   }
 
   .header-icons li {
@@ -195,10 +195,11 @@
     align-items: center;
   }
 
-  .sm-icons img{
-    width:auto;
+  .sm-icons img {
+    width: auto;
     height: auto;
   }
+
   /* Works */
 
   .work {
@@ -893,7 +894,7 @@
     height: auto;
   }
 
-  .frame-2 p{
+  .frame-2 p {
     margin-top: auto;
     margin-bottom: auto;
   }
@@ -911,7 +912,7 @@
     flex-direction: row;
     align-items: flex-start;
     color: #6b778c;
-    background-color: transparent ;
+    background-color: transparent;
   }
 
   .year {
@@ -935,9 +936,7 @@
     width: 8px;
     height: 8px;
     background-image: url(./img/Counter.svg);
-    
   }
-
 
   .secondary-text-work p {
     font-family: 'Poppins', sans-serif;
