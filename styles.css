@@ -1176,7 +1176,7 @@
     line-height: 20px;
   }
 
-  /*Contact-me*/
+  /* Contact-me */
 
   .contact-me {
     display: flex;
@@ -1193,16 +1193,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap:12px;
+    gap: 12px;
   }
 
   .primary-text-contact-me {
     font-family: 'Poppins';
-font-style: normal;
-font-weight: 700;
-font-size: 40px;
-line-height: 52px;
-color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
   }
 
   .secondary-text-contact {
