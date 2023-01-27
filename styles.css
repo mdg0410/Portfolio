@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+/* Mobiles & Tablets */
+
 @media only screen and (max-width: 767px) {
   .body {
     position: relative;
@@ -638,6 +640,8 @@
   }
 }
 
+/* Desktop */
+
 @media (min-width: 768px) {
   .body {
     display: flex;
@@ -930,10 +934,6 @@
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-
-    /* or 150% */
-
-    /* Neutrals/N600 */
     color: #344563;
   }
 
@@ -1197,7 +1197,7 @@
   }
 
   .primary-text-contact-me {
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
