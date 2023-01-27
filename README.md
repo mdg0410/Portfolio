@@ -48,8 +48,9 @@ We make use of Flexbox, we incorporate linters to the project, we use GitHub flo
 
 ### Preview <a name="preview"></a>
 
-<img src="./img/Mobile_version.png" alt="Employee data" title="Employee Data title">
-
+|Mobil|Desktop|
+|:---------------:|:----------------:|
+|<img src="./img/Mobile_version.png" alt="Employee data" title="Employee Data title">|![imagen](https://user-images.githubusercontent.com/90431831/215012819-af843803-9b97-446f-b611-16161b18d993.png)|
 
 <!-- GETTING STARTED -->
 
@@ -101,6 +102,12 @@ To run the project:
 - Twitter: [@StevenLevoyer](https://twitter.com/StevenLevoyer)
 - LinkedIn: [Richard Steven Levoyer Chavez](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
 
+👤 **Maedea9**
+
+- GitHub: [@Maedea9](https://github.com/Maedea9)
+- Twitter: [@twitter](https://twitter.com/)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -109,7 +116,7 @@ To run the project:
 
 > Features to be added to the project.
 
-- [ ] **Add Desktop Version Portfolio**
+- [ ] **Add JavaScipt at project**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
