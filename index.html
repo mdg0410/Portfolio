@@ -11,52 +11,53 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
-<!--Animations-->
+
 <body class="body">
   <!--Header-->
   <header>
-    <div class="container1">
-      <header>
-        <div class="toolbar">
-          <div class="logo">
-            <a href="#">
-              <span class="my-logo">
-                My Logo
-              </span>
-            </a>
+    <header id="header">
+      <div class="toolbar">
+        <div class="logo">
+          <a href="#">
+            <span class="my-logo">  <!--Logo-->
+              My Logo
+            </span>
+          </a>
+        </div>
+        <nav>   <!--Navbar-->
+          <ul class="menu-list"> 
+            <li class="link">
+              <a href="#Works">Works</a>
+            </li>
+            <li class="link">
+              <a href="#About">About</a>
+            </li>
+            <li class="link">
+              <a href="#Contact">Contact</a>
+            </li>
+          </ul>
+          <div class="normal-button"> <!--Hamburguer-->
+            <button class="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+              aria-controls="navbarSupportedContent"><img src="./img/Union.svg"></button>
           </div>
-          <nav>
-            <ul class="menu-list">
-              <li class="link">
-                <a href="#Works">Works</a>
-              </li>
-              <li class="link">
-                <a href="#About">About</a>
-              </li>
-              <li class="link">
-                <a href="#Contact">Contact</a>
-              </li>
+        </nav>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">   <!--Offcanvas-->
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="menu-items">
+              <li><a href="#Works"><span>Portfolio</span></a></li>
+              <li><a href="#About"><span>About</span></a></li>
+              <li><a href="#Contact"><span>Contact</span></a></li>
             </ul>
-            <div class="normal-button">
-              <button class="button" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
-                aria-controls="navbarSupportedContent"><img src="./img/Union.svg"></button>
-            </div>
-          </nav>
-          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-            <div class="offcanvas-header">
-              <button type="button" class="btn-close bg-light" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="menu-items">
-                <li><a href="#Works"><span>Portfolio</span></a></li>
-                <li><a href="#About"><span>About</span></a></li>
-                <li><a href="#Contact"><span>Contact</span></a></li>
-              </ul>
-            </div>
           </div>
         </div>
-      </header>
+      </div>
+    </header>
 
+    <div class="container1">
+     
       <!--Headline-->
       <section>
         <div class="headline">
@@ -70,13 +71,13 @@
             <div class="supporting-text">
               <a href="#About" class="lets-connect">LET’S CONNECT</a>
             </div>
-            <div class="social-media-icons">
+            <div class="social-media-icons">   <!--Social-media-->
               <ul class="header-icons">
                 <li class="sm-icons"><a href="#"><img src="./img/twitter.svg"></a></li>
-                <li  class="sm-icons"><a href="#"><img src="./img/Linkedin.svg"></a></li>
-                <li  class="sm-icons"><a href="#"><img src="./img/m.svg"></a></li>
-                <li  class="sm-icons"><a href="#"><img src="./img/github.svg"></a></li>
-                <li  class="sm-icons"><a href="#"><img src="./img/5.svg"></a></li>
+                <li class="sm-icons"><a href="#"><img src="./img/Linkedin.svg"></a></li>
+                <li class="sm-icons"><a href="#"><img src="./img/m.svg"></a></li>
+                <li class="sm-icons"><a href="#"><img src="./img/github.svg"></a></li>
+                <li class="sm-icons"><a href="#"><img src="./img/5.svg"></a></li>
               </ul>
             </div>
           </div>
@@ -91,7 +92,7 @@
     <!--Works-->
     <section aria-label="Section of works">
       <div class="work" id="Works">
-        <div class="card-works" id="card-1">
+        <div class="card-works" id="card-1">   <!--Card 1-->
           <img class="snapshoot" src="./img/Desktop/Snapshoot_1.svg">
           <div class="left-block">
             <div class="primary-text-work">
@@ -126,7 +127,7 @@
           </div>
         </div>
 
-        <div class="card-works" id="card-reverse-1">
+        <div class="card-works" id="card-reverse-1">   <!--Card 2 R-->
           <img class="snapshoot" src="./img/Desktop/Snapshoot_2.svg">
           <div class="left-block">
             <div class="primary-text-work">
@@ -146,7 +147,8 @@
               </div>
             </div>
             <div class="secondary-text-work">
-              <p>Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
+              <p>Experimental content creation feature that allows users to add to an existing story over the course of
+                a day without spamming their friends.</p>
             </div>
             <div class="tags">
               <ul class="list-tag">
@@ -162,7 +164,7 @@
           </div>
         </div>
 
-        <div class="card-works" id="card-2">
+        <div class="card-works" id="card-2">   <!--Card 3-->
           <img class="snapshoot" src="./img/Desktop/Snapshoot_3.svg">
           <div class="left-block">
             <div class="primary-text-work">
@@ -182,7 +184,8 @@
               </div>
             </div>
             <div class="secondary-text-work">
-              <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
+              <p>Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy
+                360 photos and videos on Gear VR.</p>
             </div>
             <div class="tags">
               <ul class="list-tag">
@@ -198,7 +201,7 @@
           </div>
         </div>
 
-        <div class="card-works" id="card-reverse-2">
+        <div class="card-works" id="card-reverse-2">    <!---Card 4 R-->
           <img class="snapshoot" src="./img/Desktop/Snapshoot_4.svg">
           <div class="left-block">
             <div class="primary-text-work">
@@ -218,7 +221,8 @@
               </div>
             </div>
             <div class="secondary-text-work">
-              <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
+              <p>A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive
+                computer: your car.</p>
             </div>
             <div class="tags">
               <ul class="list-tag">
@@ -240,13 +244,13 @@
     <section aria-label="About-me">
       <div class="base-about-me" id="About">
         <div class="about-my-self">
-          <div class="top">
+          <div class="top">   <!--About-->
             <h2 class="primary-text-about-me">About
               Myself</h2>
             <p class="secondary-text-about-me">Hello I’m a software developer! I can help you build a product ,
               feature or website Look through some of my work and experience! If you like what you see and have a
               project you need coded, don’t hestiate to contact me.</p>
-            <div class="social-media-about-me">
+            <div class="social-media-about-me">   <!--Social-media-->
               <div class="suppoting-text-about-me">
                 <a href="#Contact" class="lets-connect">LET’S CONNECT</a>
               </div>
@@ -260,11 +264,11 @@
                 </ul>
               </div>
             </div>
-            <button type="button" class="action-button">Get my resume</button>
+            <button type="button" class="action-button">Get my resume</button>   
           </div>
-          <ul class="skill-list">
+          <ul class="skill-list">   <!--Skill-list-->
             <li>
-              <div class="frame-block">
+              <div class="frame-block">    <!--Languajes-->
                 <div id="frame-skill">
                   <span class="text-skill">Languages</span>
                   <button type="button" class="button-skill"><img src="./img/V.svg" class="V"></button>
@@ -287,7 +291,7 @@
               </div>
             </li>
             <li>
-              <div class="frame-block">
+              <div class="frame-block">   <!--Frameworks-->
                 <div id="frame-skill">
                   <span class="text-skill">Frameworks</span>
                   <button type="button" class="button-skill"><img src="./img/v-90.svg" class="V"></button>
@@ -296,8 +300,8 @@
               </div>
             </li>
             <li>
-              <div class="frame-block">
-                <div id="frame-skill">
+              <div class="frame-block">    <!--Skills-->
+                <div id="frame-skill"> 
                   <span class="text-skill">Skills</span>
                   <button type="button" class="button-skill"><img src="./img/v-90.svg" class="V"></button>
                   <div class="separator"></div>
@@ -310,24 +314,25 @@
     </section>
     <!--End-About-me-->
   </main>
+<!--End-Main-->
+<!--Footer-->
   <footer>
     <div class="contact-me" id="Contact">
-      <form class="form-contact-me" action="https://formspree.io/f/xbjelnar" method="POST">
+      <form class="form-contact-me" action="https://formspree.io/f/xbjelnar" method="POST">   <!--Form-->
         <h2 class="primary-text-contact-me"> Contact me</h2>
         <p class="secondary-text-contact">If you have an application you are interested in developing, a feature that
           you need built or a project that needs coding. I’d love to help with</p>
-        <input class="input" name="name" id="name" type="name" placeholder="Enter your name" pattern="[A-Za-z/ ]{0,30}" required>
+        <input class="input" name="name" id="name" type="name" placeholder="Enter your name" pattern="[A-Za-z/ ]{0,30}"
+          required>
         <input class="input" name="Email" id="email" type="email" placeholder="Enter your email" required>
         <textarea class="input" name="message" id="message" placeholder="Write your message here" maxlength="500" required></textarea>
         <button class="submit-button" id="form-submit" type="submit">Get in touch</button>
       </form>
     </div>
   </footer>
+  <!--End-Footer-->
 
-  <!--End-Main-->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 
 </html>
