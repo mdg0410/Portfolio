@@ -49,7 +49,7 @@ We make use of Flexbox, we incorporate linters to the project, we use GitHub flo
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 > Open the live-demo of the project
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
+- [Live Demo Link](https://mdg0410.github.io/Portfolio/) 👈
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
