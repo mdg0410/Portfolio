@@ -177,8 +177,8 @@
     color: #7f8cff;
   }
 
-  .lets-connect:hover{
-    color:#091e42;
+  .lets-connect:hover {
+    color: #091e42;
   }
 
   .social-media-icons {
@@ -735,7 +735,7 @@
     color: #344563;
   }
 
-  .menu-list a:hover{
+  .menu-list a:hover {
     color: #6070ff;
   }
 
@@ -809,10 +809,10 @@
     color: #7f8cff;
   }
 
-  .lets-connect:hover{
+  .lets-connect:hover {
     color: #172b4d;
   }
-  
+
 
   .social-media-icons {
     display: flex;
