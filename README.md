@@ -7,7 +7,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
-    - [Preview](#preview)
+    - [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -46,11 +46,12 @@ We make use of Flexbox, we incorporate linters to the project, we use GitHub flo
 
 <!-- Features -->
 
-### Preview <a name="preview"></a>
+## 🚀 Live Demo <a name="live-demo"></a>
 
-|Mobil|Desktop|
-|:---------------:|:----------------:|
-|<img src="./img/Mobile_version.png" alt="Employee data" title="Employee Data title">|![imagen](https://user-images.githubusercontent.com/90431831/215012819-af843803-9b97-446f-b611-16161b18d993.png)|
+> Open the live-demo of the project
+- [Live Demo Link](https://yourdeployedapplicationlink.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
