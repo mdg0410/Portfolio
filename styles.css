@@ -396,6 +396,11 @@
     color: #fff;
   }
 
+  .action-button:focus {
+    background: #6070ff;
+    color: #fff;
+  }
+
   .action-button:active {
     background: #2230d2;
     border-radius: 8px;
@@ -595,7 +600,7 @@
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #b5b5ec;
+    color: #babaef;
     margin-left: 24px;
     margin-right: 24px;
     margin-bottom: 35px;
@@ -614,6 +619,10 @@
     width: 327px;
     margin-bottom: 20px;
     padding-left: 15px;
+  }
+
+  .input:focus {
+    background-color: rgb(216, 218, 235);
   }
 
   #message {
@@ -644,6 +653,11 @@
     background: #2230d2;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
+    color: #fff;
+  }
+
+  .submit-button:focus {
+    background: #2230d2;
     color: #fff;
   }
 
@@ -1024,6 +1038,11 @@
     transition: all 300ms ease-in-out;
   }
 
+  .action-button:focus {
+    background: #6070ff;
+    color: #fff;
+  }
+
   .action-button:hover {
     background: #6070ff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
@@ -1247,6 +1266,10 @@
     margin-top: 15px;
   }
 
+  .input:focus {
+    background-color: rgb(216, 218, 235);
+  }
+
   #message {
     height: 170px;
     width: 393px;
@@ -1269,6 +1292,11 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
+  }
+
+  .submit-button:focus {
+    background: #2230d2;
+    color: #fff;
   }
 
   .submit-button:hover {
