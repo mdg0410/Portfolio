@@ -47,7 +47,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    color: #6070ff;
+    color: #2230d2;
   }
 
   nav {
@@ -81,7 +81,7 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background: #6070ff;
+    background: #2230d2;
     width: auto;
     height: 100px;
   }
@@ -93,7 +93,7 @@
     align-content: center;
     width: auto;
     height: 628px;
-    background: #6070ff;
+    background: #2230d2;
   }
 
   .menu-items {
@@ -174,7 +174,7 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #2230d2;
   }
 
   .lets-connect:hover {
@@ -352,6 +352,7 @@
 
   .list-tag a {
     text-decoration: none;
+    color: #0f0fff;
   }
 
   .text-s {
@@ -378,10 +379,10 @@
     height: 48px;
     padding: 12px;
     gap: 10px;
-    border: 1px solid #6070ff;
+    border: 1px solid #2230d2;
     border-radius: 8px;
     background-color: transparent;
-    color: #396df2;
+    color: #2230d2;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -390,19 +391,19 @@
   }
 
   .action-button:hover {
-    background: #6070ff;
+    background: #2230d2;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
     color: #fff;
   }
 
   .action-button:focus {
-    background: #6070ff;
+    background: #2230d2;
     color: #fff;
   }
 
   .action-button:active {
-    background: #2230d2;
+    background: #2231d5;
     border-radius: 8px;
     color: #fff;
   }
@@ -577,7 +578,7 @@
     flex-direction: column;
     align-items: center;
     height: 779px;
-    background: #6070ff;
+    background: #4848e7;
     background-image: url(./img/contact\ form\ shapes-mobile.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -639,10 +640,10 @@
     height: 48px;
     padding: 10px;
     gap: 10px;
-    border: 1px solid #6070ff;
+    border: 1px solid #2230d2;
     border-radius: 8px;
     background-color: #fff;
-    color: #6070ff;
+    color: #2230d2;
     margin-left: -210px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -662,7 +663,7 @@
   }
 
   .submit-button:active {
-    background: #6070ff;
+    background: #5666f9;
     border-radius: 8px;
     color: #fff;
   }
@@ -719,7 +720,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 20px;
-    color: #6070ff;
+    color: #2929ff;
   }
 
   nav {
@@ -746,7 +747,7 @@
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #344563;
+    color: #2929ff;
   }
 
   .normal-button {
@@ -816,7 +817,7 @@
     font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    color: #7f8cff;
+    color: #2929ff;
   }
 
   .lets-connect:hover {
@@ -994,6 +995,7 @@
 
   .list-tag a {
     text-decoration: none;
+    color: #0f0fff;
   }
 
   .tag {
@@ -1026,10 +1028,10 @@
     align-items: center;
     padding: 12px;
     gap: 10px;
-    border: 1px solid #6070ff;
+    border: 1px solid #2929ff;
     border-radius: 8px;
     background-color: transparent;
-    color: #396df2;
+    color: #2929ff;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1039,19 +1041,19 @@
   }
 
   .action-button:focus {
-    background: #6070ff;
+    background: #2929ff;
     color: #fff;
   }
 
   .action-button:hover {
-    background: #6070ff;
+    background: #2929ff;
     box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
     border-radius: 8px;
     color: #fff;
   }
 
   .action-button:active {
-    background: #2230d2;
+    background: #2f3edf;
     border-radius: 8px;
     color: #fff;
   }
@@ -1225,7 +1227,7 @@
     flex-direction: column;
     align-items: center;
     padding-top: 144px;
-    background: #6070ff;
+    background: #4848e7;
     background-image: url(./img/Desktop/contact-background.svg);
     background-position: 75.34px 170px;
     background-repeat: no-repeat;
@@ -1255,7 +1257,7 @@
     font-size: 20px;
     line-height: 28px;
     text-align: center;
-    color: #ebebff;
+    color: #fff;
   }
 
   .input {
@@ -1267,7 +1269,7 @@
   }
 
   .input:focus {
-    background-color: rgb(216, 218, 235);
+    background-color: rgb(222, 222, 222);
   }
 
   #message {
@@ -1285,10 +1287,10 @@
     height: 48px;
     margin-bottom: 63px;
     padding: 10px;
-    border: 1px solid #6070ff;
+    border: 1px solid #2929ff;
     border-radius: 8px;
     background-color: #fff;
-    color: #6070ff;
+    color: #2929ff;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -1307,7 +1309,7 @@
   }
 
   .submit-button:active {
-    background: #6070ff;
+    background: #3d4ff4;
     border-radius: 8px;
     color: #fff;
   }
