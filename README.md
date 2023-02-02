@@ -7,6 +7,7 @@
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
     - [Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
@@ -46,9 +47,17 @@ We make use of Flexbox, we incorporate linters to the project, we use GitHub flo
 
 <!-- Features -->
 
+### Key Features <a name="key-features"></a>
+
+- **[User_Experience_(UX)_Design]**
+- **[Web_Accessibility]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE-DEMO -->
+
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Open the live-demo of the project
 - [Live Demo Link](https://mdg0410.github.io/Portfolio/) 👈
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -103,9 +112,9 @@ To run the project:
 - Twitter: [@StevenLevoyer](https://twitter.com/StevenLevoyer)
 - LinkedIn: [Richard Steven Levoyer Chavez](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
 
-👤 **Maedea9**
+👤 **baezluise**
 
-- GitHub: [@Maedea9](https://github.com/Maedea9)
+- GitHub: [@baezluise](https://github.com/baezluise)
 - Twitter: [@twitter](https://twitter.com/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/)
 
@@ -114,8 +123,6 @@ To run the project:
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Features to be added to the project.
 
 - [ ] **Add JavaScipt at project**
 
