@@ -40,6 +40,8 @@ We make use of Flexbox, we incorporate linters to the project, we use GitHub flo
     <li><a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A988&t=eSvT9fWG9MegBs3Y-0">Figma</a>
     </li>
     <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Boostrap</a>
+    </li>
+    <li><a href="https://www.loom.com/share/dbee5492d3474746a4b30c757abf8d44">Review project</a>
     </li> 
   </ul>
 </details>
