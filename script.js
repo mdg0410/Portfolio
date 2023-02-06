@@ -1,7 +1,7 @@
 const sidebar = document.querySelector('#sideBar');
 
 document.querySelector('.openMenu').addEventListener('click', () => {
-  sidebar.style.width = '375px';
+  sidebar.style.width = '100%';
 });
 document.querySelector('.closeMenu').addEventListener('click', () => {
   sidebar.style.width = '0';
