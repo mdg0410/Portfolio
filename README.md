@@ -105,9 +105,9 @@ To run the project:
 - Twitter: [@StevenLevoyer](https://twitter.com/StevenLevoyer)
 - LinkedIn: [Richard Steven Levoyer Chavez](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
 
-👤 **Maedea9**
+👤 **victormc13 **
 
-- GitHub: [@Maedea9](https://github.com/Maedea9)
+- GitHub: [@victormc13 ](https://github.com/victormc13 )
 - Twitter: [@twitter](https://twitter.com/)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/)
 
