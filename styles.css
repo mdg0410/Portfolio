@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* Global */
+.body a {
+  text-decoration: none;
+  color: #2230d2;
+}
+
 /* Mobiles & Tablets */
 
 @media only screen and (max-width: 767px) {
@@ -23,6 +29,8 @@
   /* Toolbar */
 
   .toolbar {
+    position: fixed;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,10 +43,6 @@
     align-items: center;
     padding: 10px 12px;
     margin-left: 5%;
-  }
-
-  .logo a {
-    text-decoration: none;
   }
 
   .my-logo {
@@ -70,48 +74,58 @@
     padding: 8px;
   }
 
-  .button {
+  .openMenu {
     background-color: transparent;
     border: none;
   }
 
   /* Menu */
 
-  .offcanvas-header {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    background: #2230d2;
-    width: auto;
-    height: 100px;
+  .sidebar {
+    position: fixed;
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    transition: all 500ms;
+    backdrop-filter: blur(5px);
   }
 
-  .offcanvas-body {
+  .sidebar a {
+    color: #fff;
+  }
+
+  .toggle {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    align-content: center;
-    width: auto;
-    height: 628px;
-    background: #2230d2;
+    align-items: flex-start;
+    justify-content: flex-start;
+    opacity: 0.7;
+    height: 100%;
+    padding: 2vh;
+    gap: 1vh;
+    border: transparent;
+    background-color: #1120a1;
   }
 
-  .menu-items {
-    list-style-type: none;
-    text-align: center;
-  }
-
-  .offcanvas-body a {
-    text-decoration: none;
-  }
-
-  .offcanvas-body span {
-    font-family: "Poppins", sans-serif;
+  .toggle li {
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 32px;
     line-height: 44px;
-    color: #fff;
+    padding: 3vh;
+  }
+
+  .closeMenu {
+    display: flex;
+    margin-left: 90%;
+    margin-right: auto;
+    border: transparent;
+    background-color: transparent;
+    padding: 1vh;
+    overflow: hidden;
   }
 
   /* Headline */
@@ -155,10 +169,6 @@
     align-items: flex-start;
     padding: 0;
     gap: 16px;
-  }
-
-  .social-media a {
-    text-decoration: none;
   }
 
   .supporting-text {
@@ -350,11 +360,6 @@
     border-radius: 8px;
   }
 
-  .list-tag a {
-    text-decoration: none;
-    color: #0f0fff;
-  }
-
   .text-s {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -467,10 +472,6 @@
     align-items: center;
     padding: 0;
     gap: 8px;
-  }
-
-  .suppoting-text-about-me a {
-    text-decoration: none;
   }
 
   .frame-1 {
@@ -692,6 +693,7 @@
   #header {
     position: fixed;
     width: 100%;
+    top: 0;
   }
 
   .toolbar {
@@ -708,10 +710,6 @@
     align-items: center;
     padding: 10px 12px;
     margin-left: 18vh;
-  }
-
-  .logo a {
-    text-decoration: none;
   }
 
   .my-logo {
@@ -740,14 +738,26 @@
     margin-top: 12px;
   }
 
-  .menu-list a {
-    text-decoration: none;
+  .menu-list li {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #2929ff;
+  }
+
+  .menu-list li a:hover,
+  .menu-list li a.active {
+    color: #67c659 !important;
+  }
+
+  .menu-list li a:hover::after,
+  .menu-list li a.active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #67c659;
+    display: flex;
   }
 
   .normal-button {
@@ -755,6 +765,11 @@
     visibility: hidden;
     height: 1px;
     width: 1px;
+  }
+
+  .sidebar {
+    position: absolute;
+    visibility: hidden;
   }
 
   /* Headline */
@@ -799,10 +814,6 @@
     align-items: flex-start;
     margin-left: 18%;
     padding-bottom: 16%;
-  }
-
-  .social-media a {
-    text-decoration: none;
   }
 
   .supporting-text {
@@ -993,11 +1004,6 @@
     border-radius: 8px;
   }
 
-  .list-tag a {
-    text-decoration: none;
-    color: #0f0fff;
-  }
-
   .tag {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -1109,14 +1115,6 @@
     align-items: center;
     padding: 0;
     gap: 8px;
-  }
-
-  .suppoting-text-about-me a {
-    text-decoration: none;
-  }
-
-  .menu-list a:hover {
-    color: #6070ff;
   }
 
   .frame-1 {
