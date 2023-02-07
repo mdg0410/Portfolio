@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
+/* Global */
+.body a {
+  text-decoration: none;
+  color: #2230d2;
+}
+
 /* Mobiles & Tablets */
 
 @media only screen and (max-width: 767px) {
@@ -23,6 +29,8 @@
   /* Toolbar */
 
   .toolbar {
+    position: fixed;
+    width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -35,10 +43,6 @@
     align-items: center;
     padding: 10px 12px;
     margin-left: 5%;
-  }
-
-  .logo a {
-    text-decoration: none;
   }
 
   .my-logo {
@@ -83,8 +87,12 @@
     height: 100%;
     top: 0;
     right: 0;
-		backdrop-filter: blur(5px);
     transition: all 500ms;
+    backdrop-filter: blur(5px);
+  }
+
+  .sidebar a {
+    color: #fff;
   }
 
   .toggle {
@@ -92,44 +100,32 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    opacity: 0.7;
+    height: 100%;
     padding: 2vh;
+    gap: 1vh;
     border: transparent;
     background-color: #1120a1;
-		opacity: 0.7;
-		height: 100%;
-    color: white;
-    overflow: hidden;
   }
 
-  .toggle a {
-    text-decoration: none;
-    color: #fff;
-  }
-
-  .toggle ul {
+  .toggle li {
     list-style: none;
-    font-family: "Poppins", sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 32px;
     line-height: 44px;
-    gap: 2vh;
-    padding: 4vh;
+    padding: 3vh;
   }
 
   .closeMenu {
     display: flex;
-    justify-content: flex-end;
-    margin-right: auto;
     margin-left: 90%;
+    margin-right: auto;
     border: transparent;
     background-color: transparent;
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 22px;
-    line-height: 24px;
+    padding: 1vh;
+    overflow: hidden;
   }
 
   /* Headline */
@@ -173,10 +169,6 @@
     align-items: flex-start;
     padding: 0;
     gap: 16px;
-  }
-
-  .social-media a {
-    text-decoration: none;
   }
 
   .supporting-text {
@@ -368,11 +360,6 @@
     border-radius: 8px;
   }
 
-  .list-tag a {
-    text-decoration: none;
-    color: #0f0fff;
-  }
-
   .text-s {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -485,10 +472,6 @@
     align-items: center;
     padding: 0;
     gap: 8px;
-  }
-
-  .suppoting-text-about-me a {
-    text-decoration: none;
   }
 
   .frame-1 {
@@ -710,6 +693,7 @@
   #header {
     position: fixed;
     width: 100%;
+    top: 0;
   }
 
   .toolbar {
@@ -726,10 +710,6 @@
     align-items: center;
     padding: 10px 12px;
     margin-left: 18vh;
-  }
-
-  .logo a {
-    text-decoration: none;
   }
 
   .my-logo {
@@ -758,14 +738,26 @@
     margin-top: 12px;
   }
 
-  .menu-list a {
-    text-decoration: none;
+  .menu-list li {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 15px;
     line-height: 20px;
-    color: #2929ff;
+  }
+
+  .menu-list li a:hover,
+  .menu-list li a.active {
+    color: #67c659 !important;
+  }
+
+  .menu-list li a:hover::after,
+  .menu-list li a.active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #67c659;
+    display: flex;
   }
 
   .normal-button {
@@ -776,8 +768,8 @@
   }
 
   .sidebar {
-		position: absolute;
-		visibility: hidden;
+    position: absolute;
+    visibility: hidden;
   }
 
   /* Headline */
@@ -822,10 +814,6 @@
     align-items: flex-start;
     margin-left: 18%;
     padding-bottom: 16%;
-  }
-
-  .social-media a {
-    text-decoration: none;
   }
 
   .supporting-text {
@@ -1016,11 +1004,6 @@
     border-radius: 8px;
   }
 
-  .list-tag a {
-    text-decoration: none;
-    color: #0f0fff;
-  }
-
   .tag {
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -1132,14 +1115,6 @@
     align-items: center;
     padding: 0;
     gap: 8px;
-  }
-
-  .suppoting-text-about-me a {
-    text-decoration: none;
-  }
-
-  .menu-list a:hover {
-    color: #6070ff;
   }
 
   .frame-1 {
