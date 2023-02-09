@@ -8,7 +8,7 @@ const project = [
     description: ['CANOPY', 'Back End Dev', '2015'],
     imgURL: '../img/Desktop/Snapshoot_desktop_1.svg',
     content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    techno: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    techno: ['html', 'javaScript', 'github', 'css', 'Bootstrap'],
     live: 'https://mdg0410.github.io/Portfolio/',
     source: 'https://github.com/mdg0410/',
   },
@@ -17,7 +17,7 @@ const project = [
     description: ['FACEBOOK', 'Full Stack Dev', '2015'],
     imgURL: ['../img/Desktop/Snapshoot_desktop_2.svg'],
     content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    techno: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    techno: ['html', 'css', 'javaScript'],
     live: 'https://mdg0410.github.io/Portfolio/',
     source: 'https://github.com/mdg0410/',
   },
@@ -26,7 +26,7 @@ const project = [
     description: ['FACEBOOK', 'Full Stack Dev', '2015'],
     imgURL: ['../img/Desktop/Snapshoot_desktop_3.svg'],
     content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    techno: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    techno: ['Ruby on rails', 'html', 'css', 'javaScript'],
     live: 'https://mdg0410.github.io/Portfolio/',
     source: 'https://github.com/mdg0410/',
   },
@@ -35,7 +35,7 @@ const project = [
     description: ['Uber', 'Lead Developer', '2018'],
     imgURL: ['../img/Desktop/Snapshoot_desktop_4.svg'],
     content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    techno: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    techno: ['Ruby on rails', 'html', 'css', 'javaScript'],
     live: 'https://mdg0410.github.io/Portfolio/',
     source: 'https://github.com/mdg0410/',
   },
@@ -48,6 +48,9 @@ function closecard() {
 
 function opencard(i) {
   if (i >= 0 && i < 4) {
+    const tech = project[i].techno.map(
+      (det) => `<li><a href="#">${det}</a></li>`,
+    );
     wrapper.classList.add('visible');
     overflow.classList.add('overflow');
     wrapper.innerHTML = `
@@ -79,11 +82,8 @@ function opencard(i) {
       <p id="tw-a">${project[i].content}</p>
     </div>
     <div class="rigth-aux">
-    <ul class="list-tag">
-      <li class="tag"><a href="#" class="html">${project[i].techno[0]}</a></li>
-      <li class="tag"><a href="#" class="css">${project[i].techno[1]}</a></li>
-      <li class="tag"><a href="#" class="js">${project[i].techno[2]}</a></li>
-      <li class="tag" id="rr"><a href="#" class="rr">${project[i].techno[3]}</a></li>
+    <ul class="list-aux">
+      ${tech.join('')}
     </ul>
     <div class="line-aux"></div>
     <div class="container-btn-aux">
