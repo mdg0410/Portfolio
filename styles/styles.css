@@ -18,6 +18,10 @@
     margin-right: auto;
   }
 
+  .overflow {
+    overflow: hidden;
+  }
+
   .container1 {
     display: flex;
     flex-direction: column;
@@ -681,6 +685,10 @@
     background: #fff;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .overflow {
+    overflow: hidden;
   }
 
   .container1 {

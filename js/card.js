@@ -1,12 +1,13 @@
 const wrapper = document.querySelector('.wrapper');
 const btnclose = document.querySelector('.close-aux');
+const overflow = document.querySelector('.body');
 
 const project = [
   {
     title: 'Tonic',
     description: ['CANOPY', 'Back End Dev', '2015'],
     imgURL: '../img/Desktop/Snapshoot_desktop_1.svg',
-    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     techno: ['html', 'Ruby on rails', 'css', 'javaScript'],
     live: 'https://mdg0410.github.io/Portfolio/',
     source: 'https://github.com/mdg0410/',
@@ -15,7 +16,7 @@ const project = [
     title: 'Multi-Post Stories',
     description: ['FACEBOOK', 'Full Stack Dev', '2015'],
     imgURL: ['../img/Desktop/Snapshoot_desktop_2.svg'],
-    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     techno: ['html', 'Ruby on rails', 'css', 'javaScript'],
     live: 'https://mdg0410.github.io/Portfolio/',
     source: 'https://github.com/mdg0410/',
@@ -24,7 +25,7 @@ const project = [
     title: 'Facebook 360',
     description: ['FACEBOOK', 'Full Stack Dev', '2015'],
     imgURL: ['../img/Desktop/Snapshoot_desktop_3.svg'],
-    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     techno: ['html', 'Ruby on rails', 'css', 'javaScript'],
     live: 'https://mdg0410.github.io/Portfolio/',
     source: 'https://github.com/mdg0410/',
@@ -33,7 +34,7 @@ const project = [
     title: 'Uber Navigation',
     description: ['Uber', 'Lead Developer', '2018'],
     imgURL: ['../img/Desktop/Snapshoot_desktop_4.svg'],
-    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
+    content: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry is standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
     techno: ['html', 'Ruby on rails', 'css', 'javaScript'],
     live: 'https://mdg0410.github.io/Portfolio/',
     source: 'https://github.com/mdg0410/',
@@ -42,13 +43,14 @@ const project = [
 
 function closecard() {
   wrapper.classList.remove('visible');
+  overflow.classList.remove('overflow');
 }
 
 function opencard(i) {
   if (i >= 0 && i < 4) {
     wrapper.classList.add('visible');
+    overflow.classList.add('overflow');
     wrapper.innerHTML = `
-
 <div class="card-aux">
   <div class="header-aux">
     <div class="title-aux">
