@@ -124,7 +124,7 @@
     padding: 3vh;
   }
 
-  .closemenu {
+  .close {
     display: flex;
     margin-left: 90%;
     margin-right: auto;
@@ -1174,7 +1174,6 @@
     background-position: 75.34px 170px;
     background-repeat: no-repeat;
   }
-
 
   .primary-text-contact-me {
     font-family: "Poppins", sans-serif;
