@@ -584,7 +584,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 779px;
+    height: auto;
+    padding-bottom: 20px;
     background: #4848e7;
     background-image: url(../img/Mobile/contact_background_mobile.svg);
     background-size: cover;
@@ -1167,10 +1168,31 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 144px;
+    padding: 144px 0 60px;
     background: #4848e7;
     background-image: url(../img/Desktop/contact_background_desktop.svg);
     background-position: 75.34px 170px;
     background-repeat: no-repeat;
+  }
+
+
+  .primary-text-contact-me {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+  }
+
+  .secondary-text-contact {
+    width: 569px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #fff;
   }
 }
