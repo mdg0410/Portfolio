@@ -6,7 +6,7 @@
 
 @media only screen and (max-width: 767px) {
   /* Form Contact me */
-  
+
   .form-contact-me {
     display: flex;
     flex-direction: column;
@@ -67,7 +67,6 @@
     border-radius: 8px;
     color: #fff;
   }
-
 }
 
 /* Desktop */
@@ -102,28 +101,28 @@
     gap: 12px;
   }
 
-  .form-field{
+  .form-field {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
 
-  .error{
+  .error {
     border: red solid 3px;
     background-color: rgba(214, 11, 11, 0.429);
   }
 
-  .success{
+  .success {
     border: green solid 3px;
   }
 
-  small{
+  small {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     padding: 5px 5px;
-    color: #000000;
+    color: #000;
     background-color: rgb(217, 217, 217);
     border-radius: 5px;
   }
@@ -135,7 +134,7 @@
     margin-top: 16px;
     font-weight: 500;
     font-size: 19px;
-    color:black;
+    color: black;
   }
 
   .input:focus {
@@ -182,6 +181,4 @@
     border-radius: 8px;
     color: #fff;
   }
-
-
 }
