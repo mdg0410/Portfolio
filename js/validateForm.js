@@ -44,7 +44,7 @@ const checkName = () => {
   if (!isRequired(name)) {
     showError(nameEl, 'Username cannot be blank.');
   } else if (!isBetween(name.length, min, max)) {
-    showError(nameEl, `Username must be between ${min} and ${max} characters.`);
+    showError(nameEl, `Name must be between ${min} and ${max} characters.`);
   } else {
     showSuccess(nameEl);
     valid = true;
@@ -62,7 +62,7 @@ const checkText = () => {
   if (!isRequired(text)) {
     showError(textEl, 'Username cannot be blank.');
   } else if (!isBetween(text.length, min, max)) {
-    showError(textEl, `Username must be between ${min} and ${max} characters.`);
+    showError(textEl, `Text must be between ${min} and ${max} characters.`);
   } else {
     showSuccess(textEl);
     valid = true;
