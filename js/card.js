@@ -1,6 +1,7 @@
 const wrapper = document.querySelector('.wrapper');
-const btnclose = document.querySelector('.close-aux');
 const overflow = document.querySelector('.body');
+const btnCard = document.querySelector('#btn-card');
+const btnClose = document.querySelector('.close');
 
 const project = [
   {
@@ -41,12 +42,7 @@ const project = [
   },
 ];
 
-function closecard() {
-  wrapper.classList.remove('visible');
-  overflow.classList.remove('overflow');
-}
-
-function opencard(i) {
+const opencard = (i) => {
   if (i >= 0 && i < 4) {
     const tech = project[i].techno.map(
       (det) => `<li><a href="#">${det}</a></li>`,
@@ -58,7 +54,7 @@ function opencard(i) {
   <div class="header-aux">
     <div class="title-aux">
       <h2 id="title-a">${project[i].title}</h2>
-      <button onclick="closecard()" id="aux-close" class="close-aux"><img src="../img/Icons/btn-close-black.svg"></button>
+      <button onclick="cardClose()" id="aux-close" class="close"><img src="../img/Icons/btn-close-black.svg"></button>
     </div>
     <div class="frame-2">
       <div class="client">
@@ -95,7 +91,15 @@ function opencard(i) {
 </div>
 `;
   }
-}
+};
 
-document.querySelector('#btn-card').addEventListener('click', opencard());
-btnclose.addEventListener('submit', closecard());
+const cardClose = () => {
+  wrapper.classList.remove('visible');
+  overflow.classList.remove('overflow');
+};
+
+btnCard.addEventListener('click', (n) => {
+  opencard(n);
+});
+
+btnClose.addEventListener('click', cardClose());

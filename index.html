@@ -6,8 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Steven Portfolio Home Page</title>
   <!--CSS Stylesheet-->
-  <link rel="stylesheet" type="text/css" href="./styles/styles.css"/>
-  <link rel="stylesheet" type="text/css" href="./styles/popup.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/styles.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/popup.css"/>
+  <link rel="stylesheet" type="text/css" href="./css/validateForm.css"/>
+
   <!--Boostrap-->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
@@ -43,7 +45,7 @@
         </nav>
         <div class="sidebar" id="sideBar">   <!--Menu-->
           <div class="toggle">
-            <button type="button" class="closemenu"><img src="./img/Icons/btn-close-white.svg" alt="Button menu close"></button>
+            <button id="closeMenu" type="button" class="close"><img src="./img/Icons/btn-close-white.svg" alt="Button menu close"></button>
             <ul class="menu-items">
               <li><a class="active" href="#Works"><span>Portfolio</span></a></li>
               <li><a class="active" href="#About"><span>About</span></a></li>
@@ -238,7 +240,7 @@
     </section>
     <!--End-Works-->
   <!--Scroll-->
-    <section class="wrapper" onkeypress="closecard()">
+    <section class="wrapper">
     </section>
   <!--End-Scroll-->    
     <!--About-me-->
@@ -319,24 +321,36 @@
 <!--Footer-->
   <footer>
     <div class="contact-me" id="Contact">
-      <form class="form-contact-me" action="https://formspree.io/f/xbjelnar" method="POST">   <!--Form-->
-        <h2 class="primary-text-contact-me"> Contact me</h2>
-        <p class="secondary-text-contact">If you have an application you are interested in developing, a feature that
-          you need built or a project that needs coding. I’d love to help with</p>
+      <h2 class="primary-text-contact-me"> Contact me</h2>
+      <p class="secondary-text-contact">If you have an application you are interested in developing, a feature that
+        you need built or a project that needs coding. I’d love to help with</p>
+      <form id="formContact" class="form-contact-me" action="https://formspree.io/f/xbjelnar" method="POST"> <!--Form-->
+        <div class="form-field">
           <label for="name"></label>
-        <input class="input" name="user_name" id="name" type="name" placeholder="Enter your name" pattern="[A-Za-z/ ]{0,30}"
-          required>
-          <label for="email" id="email"></label>
-        <input class="input" name="user_email" id="email" type="email" placeholder="Enter your email" required>
-        <label for="message"></label>
-        <textarea class="input" name="user_message" id="message" placeholder="Write your message here" maxlength="500" required></textarea>
-        <button class="submit-button" id="form-submit" type="submit">Get in touch</button>
+          <input class="input" name="name" id="name" type="text" placeholder="Enter your name">
+          <small></small>
+        </div>
+        <div class="form-field">
+          <label for="email"></label>
+          <input class="input" name="email" id="e-mail" type="text" placeholder="Enter your email">
+          <small></small>
+        </div>
+        <div class="form-field">
+          <label for="message"></label>
+          <textarea class="input" name="message" id="message" placeholder="Write your message here"></textarea>
+          <small></small>
+        </div>
+        <div id="form-field-btn">
+        <input class="submit-button" id="formSubmit" value="Get in touch" type="submit">
+        <small id="Error"></small>
+      </div>
       </form>
     </div>
   </footer>
   <!--End-Footer-->
   <script src="./js/menu.js"></script>
   <script src="./js/card.js"></script>
+  <script src="./js/validateForm.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 

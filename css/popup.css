@@ -173,7 +173,7 @@
     height: 100%;
     padding: 5vh;
     backdrop-filter: blur(10px);
-    transition: all 500ms;
+    transition: all 200ms;
   }
 
   .visible {
@@ -222,7 +222,7 @@
     color: #172b4d;
   }
 
-  .close-aux {
+  #aux-close {
     display: flex;
     align-items: center;
     margin-top: -1%;

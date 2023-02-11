@@ -1,0 +1,192 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Global */
+
+/* Mobiles & Tablets */
+
+@media only screen and (max-width: 767px) {
+  /* Form Contact me */
+
+  .form-contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  #form-field-btn {
+    justify-content: flex-start;
+  }
+
+  .error {
+    border: red solid 1px;
+    background-color: rgba(247, 230, 230, 0.988);
+  }
+
+  .success {
+    border: green solid 3px;
+  }
+
+  small {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 5px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  .input {
+    border-radius: 8px;
+    height: 48px;
+    width: 327px;
+    padding-left: 15px;
+  }
+
+  .input:focus {
+    background-color: rgb(216, 218, 235);
+  }
+
+  #message {
+    height: 170px;
+    width: 327px;
+    padding-top: 10px;
+  }
+
+  .submit-button {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: auto;
+    height: 48px;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid #2230d2;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #2230d2;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .submit-button:hover {
+    background: #2230d2;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .submit-button:focus {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .submit-button:active {
+    background: #5666f9;
+    border-radius: 8px;
+    color: #fff;
+  }
+}
+
+/* Desktop */
+
+@media (min-width: 768px) {
+  /* Form Contact me */
+
+  .form-contact-me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .error {
+    border: red solid 1px;
+    background-color: rgba(247, 230, 230, 0.988);
+  }
+
+  .success {
+    border: green solid 3px;
+  }
+
+  small {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 5px 5px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  .input {
+    border-radius: 8px;
+    height: 48px;
+    width: 393px;
+    padding-left: 10px;
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 19px;
+    color: black;
+  }
+
+  .input:focus {
+    background-color: rgb(222, 222, 222);
+  }
+
+  #message {
+    height: 170px;
+    width: 393px;
+    margin-top: 15px;
+  }
+
+  .submit-button {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: auto;
+    height: 48px;
+    padding: 10px;
+    border: 1px solid #2929ff;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #2929ff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .submit-button:focus {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .submit-button:hover {
+    background: #2230d2;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .submit-button:active {
+    background: #3d4ff4;
+    border-radius: 8px;
+    color: #fff;
+  }
+}
