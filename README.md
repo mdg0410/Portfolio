@@ -120,7 +120,7 @@ To run the project:
 
 > Features to be added to the project.
 
-- [ ] **Validate form contact me**
+- [ ] **Update works**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
