@@ -120,7 +120,7 @@ To run the project:
 
 > Features to be added to the project.
 
-- [ ] **Update works**
+- [ ] **N/A**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
