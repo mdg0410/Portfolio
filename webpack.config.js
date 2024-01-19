@@ -19,6 +19,10 @@ module.exports = {
           },
         },
       },
+      {
+        test: /\.css$/, // Esta línea indica que el loader se aplica a archivos .css
+        use: ['style-loader', 'css-loader'],
+      },
       // ... otras reglas para diferentes tipos de archivos (como CSS) ...
     ],
   },
