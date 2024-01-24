@@ -1,9 +1,9 @@
 import React from 'react';
-import Navbar from './components/navbar';
-import Headline from './components/headline';
-import Works from './components/works';
-import About from './components/about';
-import Contact from './components/contact';
+import Navbar from './components/navbarComponent';
+import Headline from './components/headlineComponent';
+import Works from './components/worksComponent';
+import About from './components/aboutComponent';
+import Contact from './components/contactComponent';
 import './styles/app.css';
 
 function App() {
