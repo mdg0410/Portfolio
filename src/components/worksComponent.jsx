@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Works = () => {
+const Works = () => (
   <div className="work" id="Works">
     <div className="card-works" id="card-1">
       <div className="left-block">
@@ -35,7 +35,7 @@ const Works = () => {
         </div>
       </div>
     </div>
-  </div>;
-};
+  </div>
+);
 
 export default Works;

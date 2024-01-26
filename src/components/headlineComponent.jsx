@@ -1,6 +1,6 @@
 import React from 'react';
 
-const headline = () => {
+const Headline = () => (
   <header>
     <div className="headline">
       <h1 className="primary-text-header">I’m Steven Levoyer nice to see you!</h1>
@@ -26,7 +26,7 @@ const headline = () => {
         </div>
       </div>
     </div>
-  </header>;
-};
+  </header>
+);
 
-export default headline;
+export default Headline;
