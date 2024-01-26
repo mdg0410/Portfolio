@@ -4,16 +4,18 @@
   .toolbar {
     width: 100%;
     display: flex;
-    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
     background-color: #fff;
     padding: 0;
+    background-color: #6b778c; /*guia - eliminar*/
   }
 
   .logo {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 2vh 3vh;
   }
 
   .my-logo {

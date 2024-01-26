@@ -1,0 +1,133 @@
+/* Mobiles & Tablets */
+
+@media only screen and (max-width: 767px) {
+  .toolbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0;
+    background-color: #6b778c; /*guia - eliminar*/
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 3vh;
+  }
+
+  .myLogo {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #2929ff;
+  }
+
+  .menuButton {
+    margin: 2vh 3vh;
+    border: none;
+    background: transparent;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #1040a0;
+  }
+
+  .closeContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 3vh;
+    margin: 5vh 0 3vh 0
+  }
+
+  .closeButton {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 3vh;
+  }
+
+  .sidebar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 3vh;
+    font-size: 4vh;
+    align-items: center;
+  }
+
+}
+
+@media (min-width: 768px) {
+  /* Toolbar */
+
+  .toolbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .my-logo {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #2929ff;
+  }
+
+  .menuList {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 0;
+    height: 4vh;
+  }
+
+  .menuList li {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .menuList li a:hover,
+  .menuList li a.active {
+    color: #67c659 !important;
+  }
+
+  .menuList li a:hover::after,
+  .menuList li a.active::after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: #5e59c6;
+    display: flex;
+  }
+}
