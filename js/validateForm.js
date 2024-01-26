@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 const nameEl = document.querySelector('#name');
 const emailEl = document.querySelector('#e-mail');
 const textEl = document.querySelector('#message');
