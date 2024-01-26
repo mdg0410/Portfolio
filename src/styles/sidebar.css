@@ -1,8 +1,7 @@
 /* Mobiles & Tablets */
 
 @media only screen and (max-width: 767px) {
-
-  .sidebar{
+  .sidebar {
     position: fixed;
     top: 0;
     left: 0;
@@ -15,7 +14,7 @@
     background-color: #040a16;
   }
 
-  .sidebar ul{
+  .sidebar ul {
     list-style-type: none;
     display: flex;
     flex-direction: column;
@@ -24,5 +23,4 @@
     font-size: 3vh;
     align-items: center;
   }
-
 }

@@ -11,8 +11,9 @@ function about() {
           </h2>
           <p className="secondary-text-about-me">
             Hello I’m a software developer! I can help you build a product ,
-            feature or website Look through some of my work and experience! If you like what you see and have a
-            project you need coded, don’t hestiate to contact me.
+            feature or website Look through some of my work and experience!
+            If you like what you see and have a project you need coded,
+            don’t hestiate to contact me.
           </p>
           <div className="social-media-about-me">
             <div className="suppoting-text-about-me">
@@ -20,11 +21,11 @@ function about() {
             </div>
             <div className="frame-1">
               <ul className="header-icons">
-                <li className="sm-icons"><a href="#" /></li>
-                <li className="sm-icons"><a href="#" /></li>
-                <li className="sm-icons"><a href="#" /></li>
-                <li className="sm-icons"><a href="#" /></li>
-                <li className="sm-icons"><a href="#" /></li>
+                <li className="sm-icons">1</li>
+                <li className="sm-icons">1</li>
+                <li className="sm-icons">1</li>
+                <li className="sm-icons">1</li>
+                <li className="sm-icons">1</li>
               </ul>
             </div>
           </div>
@@ -35,7 +36,7 @@ function about() {
             <div className="frame-block">
               <div id="frame-skill">
                 <span className="text-skill">Languages</span>
-                <button type="button" className="button-skill" />
+                {/* <button type="button" className="button-skill" /> */}
                 <div className="separator" id="s-1" />
               </div>
               <div className="languages-list">
@@ -55,7 +56,7 @@ function about() {
             <div className="frame-block">
               <div id="frame-skill">
                 <span className="text-skill">Frameworks</span>
-                <button type="button" className="button-skill" />
+                {/* <button type="button" className="button-skill" /> */}
                 <div className="separator" />
               </div>
             </div>
@@ -64,7 +65,7 @@ function about() {
             <div className="frame-block">
               <div id="frame-skill">
                 <span className="text-skill">Skills</span>
-                <button type="button" className="button-skill" />
+                {/* <button type="button" className="button-skill" /> */}
                 <div className="separator" />
               </div>
             </div>

@@ -1,7 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
-import { toggleSidebar, selectSidebarState } from '../redux/slices/sidebarSlice';
-import Sidebar from './SidebarComponent';
+import Sidebar from './sidebarComponent';
 import '../styles/navbar.css';
 
 const MenuList = () => (
@@ -19,8 +17,6 @@ const MenuList = () => (
 );
 
 const Navbar = () => {
-  const dispatch = useDispatch();
-  const isSidebarOpen = useSelector(selectSidebarState);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
 
   useEffect(() => {
@@ -43,10 +39,9 @@ const Navbar = () => {
       {windowWidth > 768 ? (
         <MenuList />
       ) : (
-        <Sidebar/>
+        <Sidebar />
       )}
-      
-      
+
     </nav>
   );
 };

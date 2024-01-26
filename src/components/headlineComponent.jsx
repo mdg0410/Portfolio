@@ -17,11 +17,11 @@ const headline = () => {
         </div>
         <div className="social-media-icons">
           <ul className="header-icons">
-            <li className="sm-icons"><a href="#" /></li>
-            <li className="sm-icons"><a href="#" /></li>
-            <li className="sm-icons"><a href="#" /></li>
-            <li className="sm-icons"><a href="#" /></li>
-            <li className="sm-icons"><a href="#" /></li>
+            <li className="sm-icons">1</li>
+            <li className="sm-icons">1</li>
+            <li className="sm-icons">1</li>
+            <li className="sm-icons">1</li>
+            <li className="sm-icons">1</li>
           </ul>
         </div>
       </div>

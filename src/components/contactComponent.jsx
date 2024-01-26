@@ -10,17 +10,17 @@ function contact() {
       </p>
       <form id="formContact" className="form-contact-me" action="https://formspree.io/f/xbjelnar" method="POST">
         <div className="form-field">
-          <label htmlFor="name" />
+          {/* <label htmlFor="name" /> */}
           <input className="input" name="name" id="name" type="text" placeholder="Enter your name" />
           <small />
         </div>
         <div className="form-field">
-          <label htmlFor="email" />
+          {/* <label htmlFor="email" /> */}
           <input className="input" name="email" id="e-mail" type="text" placeholder="Enter your email" />
           <small />
         </div>
         <div className="form-field">
-          <label htmlFor="message" />
+          {/* <label htmlFor="message" /> */}
           <textarea className="input" name="message" id="message" placeholder="Write your message here" />
           <small />
         </div>

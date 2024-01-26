@@ -12,16 +12,17 @@ const SidebarComponent = () => {
       {!isSidebarOpen ? (
         <button type="button" onClick={() => dispatch(toggleSidebar())}>
           Menú
-        </button>) : (
-        <div className="sidebar">
-        <button type="button" onClick={() => dispatch(toggleSidebar())}>
-          X
         </button>
-        <ul>
-          <li><a href="#Works">Works</a></li>
-          <li><a href="#About">About</a></li>
-          <li><a href="#Contact">Contact</a></li>
-        </ul>
+      ) : (
+        <div className="sidebar">
+          <button type="button" onClick={() => dispatch(toggleSidebar())}>
+            X
+          </button>
+          <ul>
+            <li><a href="#Works">Works</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+          </ul>
         </div>
       )}
     </>

@@ -25,9 +25,9 @@ const Works = () => {
         </div>
         <div className="tags">
           <ul className="list-tag">
-            <li className="tag"><a href="#" className="html">html</a></li>
-            <li className="tag"><a href="#" className="css">css</a></li>
-            <li className="tag"><a href="#" className="js">javaScript</a></li>
+            <li className="tag"><a href="https://google.com" className="html">html</a></li>
+            <li className="tag"><a href="https://google.com" className="css">css</a></li>
+            <li className="tag"><a href="https://google.com" className="js">javaScript</a></li>
           </ul>
         </div>
         <div className="action">

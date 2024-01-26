@@ -1,7 +1,6 @@
 /* Mobiles & Tablets */
 
 @media only screen and (max-width: 767px) {
-
   .toolbar {
     width: 100%;
     display: flex;
@@ -56,11 +55,9 @@
     background: #5e59c6;
     display: flex;
   }
-
 }
 
 @media (min-width: 768px) {
-
   /* Toolbar */
 
   .toolbar {
@@ -588,4 +585,3 @@
     color: #fff;
   }
 }
-
