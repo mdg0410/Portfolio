@@ -5,6 +5,7 @@ import db from '../db/proyects';
 import Work from './workComponent';
 import { selectModal } from '../redux/slices/modalSlice';
 import Modal from './modalComponent';
+import styles from '../styles/portfolio.module.css';
 
 const Works = () => {
   const dispatch = useDispatch();
@@ -16,8 +17,7 @@ const Works = () => {
   }, [dispatch]);
 
   return (
-    <div className="work">
-      <h1>Works</h1>
+    <div className={styles.work}>
       {works.map((work) => (
         <Work key={work.id} work={work} />
       ))}

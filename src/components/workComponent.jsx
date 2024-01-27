@@ -2,6 +2,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { openModal } from '../redux/slices/modalSlice';
+import styles from '../styles/portfolio.module.css';
 
 const WorkComponent = ({ work }) => {
   const dispatch = useDispatch();
@@ -11,16 +12,14 @@ const WorkComponent = ({ work }) => {
   };
 
   return (
-    <div className="cardWork" id={work.id}>
-      <div className="right-block">
-        <div className="image">
-          <img src={work.image} alt="work------" />
-        </div>
+    <div className={styles.cardWork}>
+      <div className={styles.rightBlock}>
+        <img src={work.image} alt="work------" />
       </div>
-      <div className="left-block">
-        <div className="primary-text-work">
-          <h2 className="project-title">{work.title}</h2>
-          <div className="frame-2">
+      <div className={styles.leftBlock}>
+        <div className={styles.primaryTextWork}>
+          <h2 className={styles.projectTitle}>{work.title}</h2>
+          <div className={styles.frame2}>
             <div className="client">
               <p className="text-p" id="tc1">{work.description[0]}</p>
             </div>
@@ -34,18 +33,18 @@ const WorkComponent = ({ work }) => {
             </div>
           </div>
         </div>
-        <div className="secondary-text-work">
+        <div className={styles.descriptionWork}>
           <p id="tw1">{work.content}</p>
         </div>
-        <div className="tags">
-          <ul className="list-tag">
+        <div className={styles.tags}>
+          <ul className={styles.listTag}>
             {work.techno.map((tech) => (
               <li key={tech} className="tag"><a href="https://google.com">{tech}</a></li>
             ))}
           </ul>
         </div>
-        <div className="action">
-          <button onClick={openModalHandler} id="btn-card" type="button" className="action-button">See Project</button>
+        <div className={styles.action}>
+          <button onClick={openModalHandler} id="btn-card" type="button" className={styles.actionButton}>See Project</button>
         </div>
       </div>
     </div>
