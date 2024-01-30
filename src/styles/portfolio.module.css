@@ -2,6 +2,7 @@
 
 @media only screen and (max-width: 767px) {
   /* Toolbar */
+
   .toolbar {
     width: 100%;
     display: flex;
@@ -324,7 +325,7 @@
     bottom: 0;
     width: 100%;
     height: 100%;
-    padding: 50px 16px 60px 16px;
+    padding: 15px 16px;
     backdrop-filter: blur(10px);
     transition: all 500ms;
   }
@@ -338,7 +339,6 @@
     padding: 2vh;
     border-radius: 2vh;
     background-color: #fff;
-    overflow-y: visible;
   }
 
   .headerAux {
@@ -467,6 +467,274 @@
     font-size: 15px;
     line-height: 20px;
     color: #1120a1;
+  }
+
+  .baseAboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background: #fff;
+  }
+
+  .aboutMySelf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 114px 24px;
+    gap: 24px;
+    width: 375px;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+  }
+
+  .primaryTextAboutMe {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    width: 250px;
+    color: #172b4d;
+  }
+
+  .secondaryTextAboutMe {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .socialMediaAboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 18px;
+    gap: 16px;
+  }
+
+  .suppotingTextAboutMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+  }
+
+  .frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+  }
+
+  .skillList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .skillList li {
+    list-style-type: none;
+  }
+
+  #frameSkill {
+    width: 327px;
+    height: 72px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    padding: 5px;
+  }
+
+  .frameBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .textSkill {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 6px;
+  }
+
+  .buttonSkill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    margin-right: 13px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .separator {
+    background: #dfe1e6;
+    height: 1px;
+    grid-column: 1 / span 2;
+  }
+
+  #s1 {
+    visibility: hidden;
+  }
+
+  .languagesList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .frameList {
+    width: 303px;
+    height: 66.72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    background: #f7f7f9;
+    border-radius: 8px;
+  }
+
+  .frameImg {
+    background: transparent;
+    padding-left: 10px;
+  }
+
+  .frameText {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .contactMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding-bottom: 20px;
+    background: #4848e7;
+
+    /* background-image: url(../img/Mobile/contact_background_mobile.svg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .primaryTextContactMe {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+    margin-top: 103px;
+  }
+
+  .secondaryTextContact {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #babaef;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 35px;
+  }
+
+  .formContactMe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .formField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  small {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 5px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  .input {
+    border-radius: 8px;
+    height: 48px;
+    width: 327px;
+    padding-left: 15px;
+  }
+
+  .input:focus {
+    background-color: rgb(236, 236, 240);
+  }
+
+  #message {
+    height: 170px;
+    width: 327px;
+    padding-top: 10px;
+  }
+
+  .submitButton {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: auto;
+    padding: 1vh 2vh;
+    border: 1px solid #2230d2;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #2230d2;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+  }
+
+  .submitButton:hover {
+    background: #2230d2;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .submitButton:focus {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .submitButton:active {
+    background: #5666f9;
+    border-radius: 8px;
+    color: #fff;
   }
 }
 

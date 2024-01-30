@@ -16,9 +16,9 @@ function App() {
       {/* Works */}
       <Works />
       {/* About Me */}
-
+      <About />
       {/* Contact Me */}
-
+      <Contact />
     </div>
   );
 }

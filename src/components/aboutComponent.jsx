@@ -1,71 +1,70 @@
 import React from 'react';
+import styles from '../styles/portfolio.module.css';
 
 const about = () => (
-  <div className="base-about-me" id="About">
-    <div className="about-my-self">
-      <div className="top">
-        <h2 className="primary-text-about-me">
+  <div className={styles.baseAboutMe} id="About">
+    <div className={styles.aboutMySelf}>
+      <div className={styles.top}>
+        <h2 className={styles.primaryTextAboutMe}>
           About
           Myself
         </h2>
-        <p className="secondary-text-about-me">
+        <p className={styles.secondaryTextAboutMe}>
           Hello I’m a software developer! I can help you build a product ,
           feature or website Look through some of my work and experience!
           If you like what you see and have a project you need coded,
           don’t hestiate to contact me.
         </p>
-        <div className="social-media-about-me">
-          <div className="suppoting-text-about-me">
-            <a href="#Contact" className="lets-connect">LET’S CONNECT</a>
+        <div className={styles.socialMediaAboutMe}>
+          <div className={styles.suppotingTextAboutMe}>
+            <a href="#Contact" className={styles.letsConnect}>LET’S CONNECT</a>
           </div>
-          <div className="frame-1">
-            <ul className="header-icons">
-              <li className="sm-icons">1</li>
-              <li className="sm-icons">1</li>
-              <li className="sm-icons">1</li>
-              <li className="sm-icons">1</li>
-              <li className="sm-icons">1</li>
+          <div className={styles.frame1}>
+            <ul className={styles.headerIcons}>
+              <li className={styles.smIcons}>1</li>
+              <li className={styles.smIcons}>1</li>
+              <li className={styles.smIcons}>1</li>
             </ul>
           </div>
         </div>
-        <button type="button" className="action-button">Get my resume</button>
+        <button type="button" className={styles.actionButton}>Get my resume</button>
       </div>
-      <ul className="skill-list">
+      <ul className={styles.skillList}>
         <li>
-          <div className="frame-block">
-            <div id="frame-skill">
-              <span className="text-skill">Languages</span>
-              {/* <button type="button" className="button-skill" /> */}
-              <div className="separator" id="s-1" />
+          <div className={styles.frameBlock}>
+            <div id="frameSkill">
+              <span className={styles.textSkill}>Languages</span>
+              {/* <button type="button" className={styles.buttonSkill} /> */}
+              <div className={styles.separator} id="s1" />
             </div>
-            <div className="languages-list">
-              <div className="frame-list">
-                <span className="frame-text">javaScript</span>
+            <div className={styles.languagesList}>
+              <div className={styles.frameList}>
+                <span className={styles.frameText}>javaScript</span>
               </div>
-              <div className="frame-list">
-                <span className="frame-text">HTML</span>
+              <div className={styles.frameList}>
+                <span className={styles.frameText}>HTML</span>
               </div>
-              <div className="frame-list">
-                <span className="frame-text">CSS</span>
+              <div className={styles.frameList}>
+                <span className={styles.frameText}>CSS</span>
               </div>
-            </div>
-          </div>
-        </li>
-        <li>
-          <div className="frame-block">
-            <div id="frame-skill">
-              <span className="text-skill">Frameworks</span>
-              {/* <button type="button" className="button-skill" /> */}
-              <div className="separator" />
             </div>
           </div>
         </li>
         <li>
-          <div className="frame-block">
-            <div id="frame-skill">
-              <span className="text-skill">Skills</span>
-              {/* <button type="button" className="button-skill" /> */}
-              <div className="separator" />
+          <div className={styles.frameBlock}>
+            <div id="frameSkill">
+              <span className={styles.textSkill}>Frameworks</span>
+              {/* <button type="button" className={styles.buttonSkill} /> */}
+              <div className={styles.separator} />
+            </div>
+          </div>
+        </li>
+        <li>
+          <div className={styles.frameBlock}>
+            <div id="frameSkill">
+              <span className={styles.textSkill}>Skills</span>
+              {/* <button type="button" className={styles.buttonSkill} /> */}
+              <div className={styles.separator} />
             </div>
           </div>
         </li>

@@ -17,9 +17,9 @@ const Headline = () => (
           <a href="#About" className={styles.letsConnect}>LET’S CONNECT</a>
         </div>
         <ul className={styles.headerIcons}>
-          <li className={styles.smIcons}><a href="#"><img src="../assets/Icons/twitter.svg" alt="Twitter icon" /></a></li>
-          <li className={styles.smIcons}><a href="#"><img src="../assets/Icons/linkedin.svg" alt="Linkedin icon" /></a></li>
-          <li className={styles.smIcons}><a href="#"><img src="../assets/Icons/github.svg" alt="Github icon" /></a></li>
+          <li className={styles.smIcons}><a href="#Contact"><img src="../assets/Icons/twitter.svg" alt="Twitter icon" /></a></li>
+          <li className={styles.smIcons}><a href="#Contact"><img src="../assets/Icons/linkedin.svg" alt="Linkedin icon" /></a></li>
+          <li className={styles.smIcons}><a href="#Contact"><img src="../assets/Icons/github.svg" alt="Github icon" /></a></li>
         </ul>
       </div>
     </div>
