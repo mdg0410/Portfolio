@@ -2,11 +2,24 @@ html {
   box-sizing: border-box;
 }
 
-*, *:before, *:after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
-body, nav, h1, h2, h3, h4, h5, h6, p, ol, ul, form {
+body,
+nav,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+form {
   margin: 0;
   padding: 0;
   font-weight: normal;
@@ -17,6 +30,7 @@ body a {
   color: #d25122;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
