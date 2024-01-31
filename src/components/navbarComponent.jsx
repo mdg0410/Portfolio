@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from './sidebarComponent';
-import styles from '../styles/portfolio.module.css';
+import styles from '../styles/navbar.module.css';
 
 const Navbar = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);

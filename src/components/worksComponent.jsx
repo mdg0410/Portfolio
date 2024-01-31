@@ -5,7 +5,7 @@ import db from '../db/proyects';
 import Work from './workComponent';
 import { selectModal } from '../redux/slices/modalSlice';
 import Modal from './modalComponent';
-import styles from '../styles/portfolio.module.css';
+import styles from '../styles/work.module.css';
 
 const Works = () => {
   const dispatch = useDispatch();

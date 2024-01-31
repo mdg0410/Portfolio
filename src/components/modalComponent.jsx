@@ -2,7 +2,7 @@
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import { closeModal } from '../redux/slices/modalSlice';
-import styles from '../styles/portfolio.module.css';
+import styles from '../styles/work.module.css';
 
 const Modal = ({ project }) => {
   const dispatch = useDispatch();

@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { updateField, setErrors, selectForm } from '../redux/slices/formSlice';
-import styles from '../styles/portfolio.module.css';
+import styles from '../styles/contact.module.css';
 
 const Contact = () => {
   const dispatch = useDispatch();

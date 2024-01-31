@@ -1,5 +1,8 @@
 import React from 'react';
-import styles from '../styles/portfolio.module.css';
+import styles from '../styles/headline.module.css';
+import { ReactComponent as TwitterIcon } from '../assets/Icons/twitter.svg';
+import { ReactComponent as LinkedinIcon } from '../assets/Icons/linkedin.svg';
+import { ReactComponent as GithubIcon } from '../assets/Icons/github.svg';
 
 const Headline = () => (
   <header>
@@ -17,9 +20,9 @@ const Headline = () => (
           <a href="#About" className={styles.letsConnect}>LET’S CONNECT</a>
         </div>
         <ul className={styles.headerIcons}>
-          <li className={styles.smIcons}><a href="#Contact"><img src="../assets/Icons/twitter.svg" alt="Twitter icon" /></a></li>
-          <li className={styles.smIcons}><a href="#Contact"><img src="../assets/Icons/linkedin.svg" alt="Linkedin icon" /></a></li>
-          <li className={styles.smIcons}><a href="#Contact"><img src="../assets/Icons/github.svg" alt="Github icon" /></a></li>
+          <li className={styles.smIcons}><a href="https://google.com" alt="twitter"><TwitterIcon /></a></li>
+          <li className={styles.smIcons}><a href="#About" alt="linkedin"><LinkedinIcon /></a></li>
+          <li className={styles.smIcons}><a href="#Contact" alt="github"><GithubIcon /></a></li>
         </ul>
       </div>
     </div>

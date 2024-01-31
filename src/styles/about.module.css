@@ -1,0 +1,165 @@
+@media only screen and (max-width: 767px) {
+
+  .baseAboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+    background: #fff;
+  }
+
+  .aboutMySelf {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 114px 24px;
+    gap: 24px;
+    width: 375px;
+  }
+
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+  }
+
+  .primaryTextAboutMe {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    width: 250px;
+    color: #172b4d;
+  }
+
+  .secondaryTextAboutMe {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .socialMediaAboutMe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 18px;
+    gap: 16px;
+  }
+
+  .suppotingTextAboutMe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+    gap: 8px;
+  }
+
+  .frame1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0;
+  }
+
+  .skillList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .skillList li {
+    list-style-type: none;
+  }
+
+  #frameSkill {
+    width: 327px;
+    height: 72px;
+    display: grid;
+    align-items: center;
+    justify-content: space-between;
+    grid-template-columns: auto auto;
+    padding: 5px;
+  }
+
+  .frameBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .textSkill {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 6px;
+  }
+
+  .buttonSkill {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    margin-right: 13px;
+    background-color: transparent;
+    border: none;
+  }
+
+  .separator {
+    background: #dfe1e6;
+    height: 1px;
+    grid-column: 1 / span 2;
+  }
+
+  #s1 {
+    visibility: hidden;
+  }
+
+  .languagesList {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    gap: 12px;
+  }
+
+  .frameList {
+    width: 303px;
+    height: 66.72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    background: #f7f7f9;
+    border-radius: 8px;
+  }
+
+  .frameImg {
+    background: transparent;
+    padding-left: 10px;
+  }
+
+  .frameText {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+}

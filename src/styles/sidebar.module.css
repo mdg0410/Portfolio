@@ -1,0 +1,52 @@
+@media only screen and (max-width: 767px) {
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.9);  
+  }
+
+  .menuButton {
+    margin: 2vh 3vh;
+    border: none;
+    background: transparent;
+  }
+
+  .closeContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 3vh;
+    margin: 5vh 0 3vh 0;
+  }
+
+  .closeButton {
+    border: none;
+    background: transparent;
+    color: #fff;
+    font-size: 3vh;
+  }
+
+  .sidebar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    gap: 3vh;
+    font-size: 4vh;
+    align-items: center;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+}

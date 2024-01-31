@@ -1,7 +1,8 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { toggleSidebar, selectSidebarState } from '../redux/slices/sidebarSlice';
-import styles from '../styles/portfolio.module.css';
+import { ReactComponent as HamburguerIcon } from '../assets/Icons/hambuerger.svg';
+import styles from '../styles/sidebar.module.css';
 
 const SidebarComponent = () => {
   const dispatch = useDispatch();
@@ -10,8 +11,8 @@ const SidebarComponent = () => {
   return (
     <>
       {!isSidebarOpen ? (
-        <button className={styles.menuButton} type="button" onClick={() => dispatch(toggleSidebar())}>
-          Menú
+        <button className={styles.menuButton} alt="Menu" type="button" onClick={() => dispatch(toggleSidebar())}>
+          <HamburguerIcon />
         </button>
       ) : (
         <div className={styles.sidebar}>
