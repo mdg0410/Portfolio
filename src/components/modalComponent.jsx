@@ -3,6 +3,10 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { closeModal } from '../redux/slices/modalSlice';
 import styles from '../styles/work.module.css';
+import { ReactComponent as Point } from '../assets/Icons/point.svg';
+import { ReactComponent as CloseButton } from '../assets/Icons/btn-close-black.svg';
+import { ReactComponent as Live } from '../assets/Icons/live-color.svg';
+import { ReactComponent as Github } from '../assets/Icons/github-color.svg';
 
 const Modal = ({ project }) => {
   const dispatch = useDispatch();
@@ -16,18 +20,20 @@ const Modal = ({ project }) => {
       <div className={styles.cardAux}>
         <div className={styles.headerAux}>
           <div className={styles.titleAux}>
-            <h2 id="title-a">{project.title}</h2>
-            <button type="button" onClick={onClose}>Cerrar</button>
+            <h2 className={styles.titleA}>{project.title}</h2>
+            <button alt="closeButton" type="button" onClick={onClose}>
+              <CloseButton />
+            </button>
           </div>
           <div className={styles.frame2}>
             <div className={styles.client}>
               <p className={styles.textP} id="tc-a">{project.description[0]}</p>
             </div>
-            <div className={styles.counter} />
+            <Point />
             <div className={styles.role}>
               <p className={styles.textP} id="tr-a">{project.description[1]}</p>
             </div>
-            <div className={styles.counter} />
+            <Point />
             <div className={styles.year}>
               <p className={styles.textP} id="ty-a">{project.description[2]}</p>
             </div>
@@ -48,8 +54,14 @@ const Modal = ({ project }) => {
             </ul>
             <div className={styles.lineAux} />
             <div className={styles.containerBtnAux}>
-              <a href="{project[i].live}" className={styles.btnAux}><span>See Live</span></a>
-              <a href="{project[i].source}" className={styles.btnAux}><span>See Source</span></a>
+              <a href={project.live} className={styles.btnAux}>
+                <Live />
+                <span>See Live</span>
+              </a>
+              <a href={project.source} className={styles.btnAux}>
+                <Github />
+                <span>See Source</span>
+              </a>
             </div>
           </div>
         </div>

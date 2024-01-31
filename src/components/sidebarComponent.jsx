@@ -3,6 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { toggleSidebar, selectSidebarState } from '../redux/slices/sidebarSlice';
 import { ReactComponent as HamburguerIcon } from '../assets/Icons/hambuerger.svg';
 import styles from '../styles/sidebar.module.css';
+import { ReactComponent as CloseButton } from '../assets/Icons/btn-close-white.svg';
 
 const SidebarComponent = () => {
   const dispatch = useDispatch();
@@ -17,8 +18,8 @@ const SidebarComponent = () => {
       ) : (
         <div className={styles.sidebar}>
           <div className={styles.closeContainer}>
-            <button className={styles.closeButton} type="button" onClick={() => dispatch(toggleSidebar())}>
-              X
+            <button alt="buttonClose" className={styles.closeButton} type="button" onClick={() => dispatch(toggleSidebar())}>
+              <CloseButton />
             </button>
           </div>
           <ul>

@@ -3,6 +3,7 @@ import React from 'react';
 import { useDispatch } from 'react-redux';
 import { openModal } from '../redux/slices/modalSlice';
 import styles from '../styles/work.module.css';
+import { ReactComponent as Point } from '../assets/Icons/point.svg';
 
 const WorkComponent = ({ work }) => {
   const dispatch = useDispatch();
@@ -14,7 +15,7 @@ const WorkComponent = ({ work }) => {
   return (
     <div className={styles.cardWork}>
       <div className={styles.rightBlock}>
-        <img src={work.image} alt="work------" />
+        <img src={work.imgURL} alt="work------" />
       </div>
       <div className={styles.leftBlock}>
         <div className={styles.primaryTextWork}>
@@ -23,11 +24,11 @@ const WorkComponent = ({ work }) => {
             <div className="client">
               <p className="text-p" id="tc1">{work.description[0]}</p>
             </div>
-            <div className="counter" />
+            <Point />
             <div className="role">
               <p className="text-p" id="tr1">{work.description[1]}</p>
             </div>
-            <div className="counter" />
+            <Point />
             <div className="year">
               <p className="text-p" id="ty1">{work.description[2]}</p>
             </div>
@@ -39,7 +40,7 @@ const WorkComponent = ({ work }) => {
         <div className={styles.tags}>
           <ul className={styles.listTag}>
             {work.techno.map((tech) => (
-              <li key={tech} className="tag"><a href="https://google.com">{tech}</a></li>
+              <li key={tech} className="tag">{tech}</li>
             ))}
           </ul>
         </div>

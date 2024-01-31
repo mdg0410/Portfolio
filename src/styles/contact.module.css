@@ -5,10 +5,9 @@
     flex-direction: column;
     align-items: center;
     height: auto;
-    padding-bottom: 20px;
+    padding: 114px 24px;
     background: #4848e7;
-
-    /* background-image: url(../img/Mobile/contact_background_mobile.svg); */
+    background-image: url(../assets/Mobile/contact_background_mobile.svg);
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -20,7 +19,6 @@
     font-size: 40px;
     line-height: 52px;
     color: #fff;
-    margin-top: 103px;
   }
 
   .secondaryTextContact {
@@ -77,18 +75,26 @@
     padding-top: 10px;
   }
 
+  #formFieldBtn {
+    display: flex;
+    width: 100%;
+    padding: 1vh 0;
+    align-items: center;
+    justify-content: center;
+  }
+
   .submitButton {
     display: flex;
     flex-direction: column;
     align-self: center;
     width: auto;
-    padding: 1vh 2vh;
+    padding: 2vh 3vh;
     border: 1px solid #2230d2;
     border-radius: 8px;
     background-color: #fff;
     color: #2230d2;
     font-family: "Poppins", sans-serif;
-    font-style: normal;
+    font-size: 20px;
     font-weight: 500;
   }
 

@@ -4,6 +4,7 @@ import sidebarReducer from './slices/sidebarSlice';
 import worksReducer from './slices/worksSlice';
 import modalReducer from './slices/modalSlice';
 import formReducer from './slices/formSlice';
+import aboutReducer from './slices/aboutSlice';
 
 const store = configureStore({
   reducer: {
@@ -12,6 +13,7 @@ const store = configureStore({
     works: worksReducer,
     modal: modalReducer,
     form: formReducer,
+    about: aboutReducer,
   },
 });
 
