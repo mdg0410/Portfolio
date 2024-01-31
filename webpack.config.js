@@ -20,6 +20,20 @@ module.exports = {
         },
       },
       {
+        test: /\.svg$/,
+        issuer: /\.(js|ts)x?$/, // Agrega esta línea para asegurarte de que solo aplique a archivos SVG utilizados en archivos JS o TS
+        use: [
+          '@svgr/webpack',
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192, // Puedes ajustar el límite según tus necesidades
+              name: 'images/[name].[hash:8].[ext]',
+            },
+          },
+        ],
+      },
+      {
         test: /\.css$/, // Esta línea indica que el loader se aplica a archivos .css
         use: ['style-loader', 'css-loader'],
       },

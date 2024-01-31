@@ -1,0 +1,30 @@
+@media only screen and (max-width: 767px) {
+  .toolbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2vh 3vh;
+  }
+
+  .myLogo {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #2929ff;
+  }
+}
+
+/* @media (min-width: 768px) {
+
+} */

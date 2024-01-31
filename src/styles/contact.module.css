@@ -1,0 +1,121 @@
+@media only screen and (max-width: 767px) {
+  .contactMe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    padding: 114px 24px;
+    background: #4848e7;
+    background-image: url(../assets/Mobile/contact_background_mobile.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .primaryTextContactMe {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #fff;
+  }
+
+  .secondaryTextContact {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #babaef;
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-bottom: 35px;
+  }
+
+  .formContactMe {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .formField {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  small {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding: 5px;
+    color: #fff;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+
+  .input {
+    border-radius: 8px;
+    height: 48px;
+    width: 327px;
+    padding-left: 15px;
+  }
+
+  .input:focus {
+    background-color: rgb(236, 236, 240);
+  }
+
+  #message {
+    height: 170px;
+    width: 327px;
+    padding-top: 10px;
+  }
+
+  #formFieldBtn {
+    display: flex;
+    width: 100%;
+    padding: 1vh 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .submitButton {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: auto;
+    padding: 2vh 3vh;
+    border: 1px solid #2230d2;
+    border-radius: 8px;
+    background-color: #fff;
+    color: #2230d2;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .submitButton:hover {
+    background: #2230d2;
+    box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+    border-radius: 8px;
+    color: #fff;
+  }
+
+  .submitButton:focus {
+    background: #2230d2;
+    color: #fff;
+  }
+
+  .submitButton:active {
+    background: #5666f9;
+    border-radius: 8px;
+    color: #fff;
+  }
+}
+
+/* @media (min-width: 768px) {
+
+} */

@@ -1,20 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Sidebar from './sidebarComponent';
-import '../styles/navbar.css';
-
-const MenuList = () => (
-  <ul className="menu-list" id="list-menu">
-    <li className="link">
-      <a href="#Works">Works</a>
-    </li>
-    <li className="link">
-      <a href="#About">About</a>
-    </li>
-    <li className="link">
-      <a href="#Contact">Contact</a>
-    </li>
-  </ul>
-);
+import styles from '../styles/navbar.module.css';
 
 const Navbar = () => {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -30,10 +16,10 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className="toolbar">
-      <div className="logo">
-        <a href="/home">
-          <span className="my-logo">My Logo</span>
+    <nav className={styles.toolbar}>
+      <div className={styles.logo}>
+        <a href="/">
+          <span className={styles.myLogo}>My Logo</span>
         </a>
       </div>
       {windowWidth > 768 ? (
@@ -45,5 +31,19 @@ const Navbar = () => {
     </nav>
   );
 };
+
+const MenuList = () => (
+  <ul className={styles.menuList}>
+    <li>
+      <a href="#Works">Works</a>
+    </li>
+    <li>
+      <a href="#About">About</a>
+    </li>
+    <li>
+      <a href="#Contact">Contact</a>
+    </li>
+  </ul>
+);
 
 export default Navbar;
