@@ -1,5 +1,4 @@
 @media only screen and (max-width: 767px) {
-
   .work {
     display: grid;
     grid-template-columns: auto;
@@ -97,7 +96,7 @@
     display: grid;
     align-content: center;
     width: 100%;
-    color:#1120a1;
+    color: #1120a1;
   }
 
   .listTag {
@@ -331,9 +330,8 @@
     line-height: 20px;
     color: #1120a1;
   }
-
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
-}
+} */

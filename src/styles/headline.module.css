@@ -1,5 +1,4 @@
 @media only screen and (max-width: 767px) {
-
   .headline {
     display: flex;
     flex-direction: column;
@@ -73,9 +72,8 @@
     width: auto;
     height: auto;
   }
-
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
-}
+} */

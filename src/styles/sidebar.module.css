@@ -1,5 +1,4 @@
 @media only screen and (max-width: 767px) {
-
   .sidebar {
     position: fixed;
     top: 0;
@@ -10,7 +9,7 @@
     align-items: center;
     height: 100vh;
     width: 100%;
-    background: rgba(0, 0, 0, 0.9);  
+    background: rgba(0, 0, 0, 0.9);
   }
 
   .menuButton {
@@ -44,9 +43,8 @@
     font-size: 4vh;
     align-items: center;
   }
-
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
-}
+} */

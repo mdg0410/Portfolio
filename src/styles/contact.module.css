@@ -1,5 +1,4 @@
 @media only screen and (max-width: 767px) {
-
   .contactMe {
     display: flex;
     flex-direction: column;
@@ -115,9 +114,8 @@
     border-radius: 8px;
     color: #fff;
   }
-
 }
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
 
-}
+} */
