@@ -679,7 +679,7 @@
     margin-right: 24vh;
   }
 
-  .menu-list {
+  .menuList {
     list-style-type: none;
     display: flex;
     flex-direction: row;
@@ -730,7 +730,7 @@
     align-items: flex-start;
     width: 100%;
     gap: 10px;
-    background-image: url(../img/Desktop/header_background_desktop.svg);
+    background-image: url('/src/assets/Mobile/header_background_mobile.svg');
     background-position: center;
     background-repeat: no-repeat;
   }
@@ -741,8 +741,6 @@
     font-weight: 700;
     font-size: 48px;
     line-height: 60px;
-    margin-top: 20%;
-    margin-left: 18%;
     width: 50%;
     color: #091e42;
   }
@@ -753,8 +751,6 @@
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    margin-left: 18%;
-    margin-right: 18%;
     color: #344563;
   }
 
@@ -806,13 +802,17 @@
 
   /* Works */
 
+
+
+
+
+
   .work {
     display: grid;
     grid-template-columns: auto;
     align-items: center;
     padding: 142px;
     gap: 142px;
-    overflow: hidden;
   }
 
   .card-works {
