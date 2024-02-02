@@ -19,7 +19,7 @@ const Navbar = () => {
     <nav className={styles.toolbar}>
       <div className={styles.logo}>
         <a href="/">
-          <span className={styles.myLogo}>My Logo</span>
+          <span className={styles.myLogo}>MDG0410</span>
         </a>
       </div>
       {windowWidth > 768 ? (

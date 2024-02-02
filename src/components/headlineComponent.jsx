@@ -17,7 +17,7 @@ const Headline = () => (
       </p>
       <div className={styles.socialMedia}>
         <div className={styles.supportingText}>
-          <a href="#About" className={styles.letsConnect}>LET’S CONNECT</a>
+          <a href="#Contact" className={styles.letsConnect}>LET’S CONNECT</a>
         </div>
         <ul className={styles.headerIcons}>
           <li className={styles.smIcons}><a href="https://google.com" alt="twitter"><TwitterIcon /></a></li>

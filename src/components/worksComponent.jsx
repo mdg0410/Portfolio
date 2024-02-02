@@ -17,7 +17,7 @@ const Works = () => {
   }, [dispatch]);
 
   return (
-    <div className={styles.work}>
+    <div className={styles.work} id="Works">
       {works.map((work) => (
         <Work key={work.id} work={work} />
       ))}
