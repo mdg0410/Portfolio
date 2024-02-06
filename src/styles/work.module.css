@@ -359,6 +359,12 @@
     box-sizing: border-box;
   }
 
+  .imgWork {
+    display: flex;
+    width: 1vh;
+    height: 10vh;
+  }
+
   .rightBlock {
     display: flex;
     flex-direction: column;
@@ -368,6 +374,16 @@
     height: 32vh;
     background: #5e59c6;
     border-radius: 2vh;
+  }
+
+  .imgWork {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #091e42;
   }
 
   .leftBlock {
@@ -526,7 +542,7 @@
     align-items: flex-start;
     width: 100%;
     height: auto;
-    padding: 4% 8%;
+    padding: 2% 8%;
     border-radius: 2vh;
     background-color: #fff;
   }

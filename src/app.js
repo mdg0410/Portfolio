@@ -8,7 +8,7 @@ import './styles/app.css';
 
 function App() {
   return (
-    <div className="container">
+    <div className="containerPortfolio">
       {/* Navbar */}
       <Navbar />
       {/* Headline */}
