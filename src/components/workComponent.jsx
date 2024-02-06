@@ -19,15 +19,11 @@ const WorkComponent = ({ work }) => {
       <div className={styles.rightBlock}>
         { isOpen ? null : (
           <Carousel>
-            <Carousel.Item>
-              <img className="d-block w-100" src="https://www.esdesignbarcelona.com/sites/default/files/img/6_pasos_para_crear_un_portfolio_digital_y_todo_lo_que_debe_incluir_2.png" alt="img1" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block w-100" src="https://images.pexels.com/photos/14936128/pexels-photo-14936128.jpeg?cs=srgb&dl=pexels-ann-h-14936128.jpg&fm=jpg" alt="img1" />
-            </Carousel.Item>
-            <Carousel.Item>
-              <img className="d-block w-100" src="https://www.oberlo.com/media/1631547010-portfolio4.png" alt="img1" />
-            </Carousel.Item>
+            {work.img.map((img) => (
+              <Carousel.Item key={img.id} className="carousel-item">
+                <img className="d-block w-100" src={img.url} alt={img.alt} />
+              </Carousel.Item>
+            ))}
           </Carousel>
         )}
       </div>

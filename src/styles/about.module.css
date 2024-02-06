@@ -244,7 +244,8 @@
 
   .headerIcons {
     display: flex;
-    gap: 2vh;
+    padding: 0;
+    gap: 4vh;
   }
 
   .actionButton {
