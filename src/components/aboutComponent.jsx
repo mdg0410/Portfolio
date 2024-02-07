@@ -2,9 +2,6 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { selectAbout, updateField } from '../redux/slices/aboutSlice';
 import styles from '../styles/about.module.css';
-import { ReactComponent as TwitterIcon } from '../assets/Icons/twitter.svg';
-import { ReactComponent as LinkedinIcon } from '../assets/Icons/linkedin.svg';
-import { ReactComponent as GithubIcon } from '../assets/Icons/github.svg';
 import { ReactComponent as JavaScript } from '../assets/Icons/javascript.svg';
 import { ReactComponent as Html } from '../assets/Icons/html.svg';
 import { ReactComponent as Css } from '../assets/Icons/css.svg';
@@ -34,11 +31,23 @@ const About = () => {
               <a href="#Contact" className={styles.letsConnect}>LET’S CONNECT</a>
             </div>
             <div className={styles.frame1}>
-              <ul className={styles.headerIcons}>
-                <li className={styles.smIcons}><a href="https://google.com" alt="twitter"><TwitterIcon /></a></li>
-                <li className={styles.smIcons}><a href="#About" alt="linkedin"><LinkedinIcon /></a></li>
-                <li className={styles.smIcons}><a href="#Contact" alt="github"><GithubIcon /></a></li>
-              </ul>
+            <ul className={styles.headerIcons}>
+          <li className={styles.smIcons}>
+            <a href="mailto:levoyersteven@gmail.com"><img alt="Gmail" src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Black/Gmail_black.svg" /></a>
+          </li>
+          <li className={styles.smIcons}>
+            <a href="https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/"><img alt="LinkedIn" src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Black/LinkedIN_black.svg" /></a>
+          </li>
+          <li className={styles.smIcons}>
+            <a href="https://wa.me/tunumerodetelefono/?text=¡Hola!%20😊%20Si%20tienes%20alguna%20pregunta,%20necesitas%20ayuda,%20o%20simplemente%20quieres%20charlar,%20estoy%20aquí%20para%20ayudarte.%20¡No%20dudes%20en%20escribirme%20en%20WhatsApp!%20🚀📱" target="_blank" rel="noreferrer"><img alt="WhastApp" src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Black/WhatsApp_black.svg" /></a>
+          </li>
+          <li className={styles.smIcons}>
+            <a href="https://mdg0410.slack.com/archives/C06HCBB01AN"><img alt="Slack" src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Black/Slack_black.svg" /></a>
+          </li>
+          <li className={styles.smIcons}>
+            <a href="https://github.com/mdg0410"><img alt="GitHub" src="https://raw.githubusercontent.com/gauravghongde/social-icons/9d939e1c5b7ea4a24ac39c3e4631970c0aa1b920/SVG/Black/Github_black.svg" /></a>
+          </li>
+        </ul>
             </div>
           </div>
           <button type="button" className={styles.actionButton}>Get my resume</button>
