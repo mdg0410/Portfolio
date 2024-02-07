@@ -34,3 +34,7 @@ ol,
 ul {
   list-style: none;
 }
+
+.containerPortfolio {
+  z-index: 1;
+}
