@@ -61,7 +61,13 @@
 
   .headerIcons {
     display: flex;
+    padding: 0;
     gap: 2vh;
+  }
+
+  .smIcons img {
+    width: 30px;
+    height: auto;
   }
 
   .actionButton {
@@ -196,14 +202,14 @@
     align-items: center;
     padding: 114px 0;
     gap: 5vh;
-    width: 50%;
+    width: 80%;
   }
 
   .top {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0;
+    padding: 0 15%;
     gap: 12px;
   }
 
@@ -275,9 +281,12 @@
 
   .skillList {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
     padding: 0;
+    width: 100%;
+    gap: 10%;
   }
 
   .skillList li {
@@ -285,7 +294,7 @@
   }
 
   #frameSkill {
-    width: 310px;
+    width: 30vh;
     height: 72px;
     display: grid;
     align-items: center;
@@ -352,6 +361,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
     gap: 16px;
     background: #f7f7f9;
     border-radius: 8px;
