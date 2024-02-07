@@ -51,7 +51,7 @@ const Modal = ({ project }) => {
         </div>
         <div className={styles.leftBlockAux}>
           <div className={styles.secondaryTextWorkAux}>
-            <p id="tw-a">{project.content}</p>
+            <p id="tw-a">{project.contentModal}</p>
           </div>
           <div className={styles.rightAux}>
             <ul className={styles.listAux}>

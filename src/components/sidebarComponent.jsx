@@ -8,7 +8,6 @@ import { ReactComponent as CloseButton } from '../assets/Icons/btn-close-white.s
 const SidebarComponent = () => {
   const dispatch = useDispatch();
   const isSidebarOpen = useSelector(selectSidebarState);
-
   return (
     <>
       {!isSidebarOpen ? (
