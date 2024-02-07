@@ -1,3 +1,25 @@
+.letsConnect:hover {
+  color: #091e42;
+}
+
+.actionButton:hover {
+  background: #2230d2;
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 8px;
+  color: #fff;
+}
+
+.actionButton:focus {
+  background: #2230d2;
+  color: #fff;
+}
+
+.actionButton:active {
+  background: #2231d5;
+  border-radius: 8px;
+  color: #fff;
+}
+
 @media only screen and (max-width: 767px) {
   .baseAboutMe {
     display: flex;
@@ -209,7 +231,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0 15%;
+    padding: 0 20%;
     gap: 12px;
   }
 
@@ -227,7 +249,7 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 24px;
     color: #344563;
   }
@@ -286,7 +308,7 @@
     justify-content: center;
     padding: 0;
     width: 100%;
-    gap: 10%;
+    gap: 5%;
   }
 
   .skillList li {
