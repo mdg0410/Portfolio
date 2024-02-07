@@ -127,6 +127,7 @@
     background-image: url(../assets/Mobile/contact_background_mobile.svg);
     background-size: cover;
     background-repeat: no-repeat;
+    gap: 3vh;
   }
 
   .primaryTextContactMe {
@@ -142,20 +143,19 @@
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 28px;
     text-align: center;
     color: #babaef;
-    margin-left: 24px;
-    margin-right: 24px;
-    margin-bottom: 35px;
+    display: flex;
+    width: 50%;
   }
 
   .formContactMe {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 10px;
+    gap: 4vh;
   }
 
   .formField {

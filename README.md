@@ -22,10 +22,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Portfolio Mobile First<a name="about-project"></a>
+# 📖 Portfolio<a name="about-project"></a>
 
 
-**Portfolio Mobile First** in this project we focus on making use of the mobile-first methodology guiding us in cloning a Figma template.
+**Portfolio** in this project we focus on making use of the mobile-first methodology guiding us in cloning a Figma template.
 We make use of Flexbox, we incorporate linters to the project, we use GitHub flow and Good code design and implementation.
 
 ## 🛠 Built With <a name="built-with"></a>
@@ -35,15 +35,13 @@ We make use of Flexbox, we incorporate linters to the project, we use GitHub flo
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/html/default.asp">Html</a></li>
-    <li><a href="https://www.w3schools.com/css/default.asp">CSS</a></li>
-    <li><a href="https://www.w3schools.com/javascript/default.asp">JavaScript</a></li>
-    <li><a href="https://www.figma.com/file/l7SqJ3ZfkAKih9sFxvWSR4/Microverse-Student-Project-1?node-id=48%3A988&t=eSvT9fWG9MegBs3Y-0">Figma</a>
-    </li>
-    <li><a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/">Boostrap</a>
-    </li>
-    <li><a href="https://www.loom.com/share/dbee5492d3474746a4b30c757abf8d44">Review project</a>
-    </li> 
+    <li><img alt="CSS3" src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" /></li>
+    <li><img alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /></li>
+    <li><img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" /></li>
+    <li><img alt="Figma" src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" /></li>
+    <li><img alt="Bootstrap" src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /></li>
+    <li><img alt="eslint" src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white" /></li>
+    <li><img alt="stylelint" src="https://img.shields.io/badge/stylelint-000?style=for-the-badge&logo=stylelint&logoColor=white" /></li>
   </ul>
 </details>
 
@@ -92,7 +90,7 @@ Install this project with:
 
 To run the project:
 
-  To use the web page, open the index.html file.
+> npm start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -106,12 +104,6 @@ To run the project:
 - Twitter: [@StevenLevoyer](https://twitter.com/StevenLevoyer)
 - LinkedIn: [Richard Steven Levoyer Chavez](https://www.linkedin.com/in/richard-steven-levoyer-chavez-9b902525b/)
 
-👤 **victormc13 **
-
-- GitHub: [@victormc13 ](https://github.com/victormc13 )
-- Twitter: [@twitter](https://twitter.com/)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/)
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -120,7 +112,7 @@ To run the project:
 
 > Features to be added to the project.
 
-- [ ] **N/A**
+- [ ] Add new function for see all projects
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

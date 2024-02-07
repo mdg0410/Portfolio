@@ -69,7 +69,7 @@
   }
 
   .smIcons img {
-    width: auto;
+    width: 30px;
     height: auto;
   }
 }
@@ -137,11 +137,16 @@
     display: flex;
     list-style-type: none;
     padding: 0;
-    gap: 5vh;
+    gap: 1vh;
   }
 
   .headerIcons li {
     display: flex;
     align-items: center;
+  }
+
+  .smIcons img {
+    width: 30px;
+    height: auto;
   }
 }
