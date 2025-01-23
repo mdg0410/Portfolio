@@ -35,6 +35,7 @@
   ],
   "ignorePatterns": [
     "docs/",
-    "build/"
+    "build/",
+    "./src/db/proyects.js"
   ]
 }
