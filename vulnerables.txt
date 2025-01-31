@@ -1,0 +1,214 @@
+SMB         10.20.3.165     445    ACART01XMF9007   [*] Windows 11 Build 22621 x64 (name:ACART01XMF9007) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.208     445    AIS01XZ6M013     [*] Windows 11 Build 22621 x64 (name:AIS01XZ6M013) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.148     445    CR01YPR00068     [*] Windows 11 Build 22621 x64 (name:CR01YPR00068) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.174     445    IT01B5MC015      [*] Windows 11 Build 22621 x64 (name:IT01B5MC015) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.232     445    CAROPC           [*] Windows 10 / Server 2019 Build 19041 x64 (name:CAROPC) (domain:Caropc) (signing:False) (SMBv1:False)
+SMB         10.20.3.32      445    TC7000101        [*] Windows 11 Build 22621 x64 (name:TC7000101) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.165     445    ACART01XMF9007   [+] cooperativa.fin.ec\si.testing:Admin_1234 
+SMB         10.20.3.208     445    AIS01XZ6M013     [+] cooperativa.fin.ec\si.testing:Admin_1234 
+SMB         10.20.3.128     445    APROV01Y9KY082   [*] Windows 11 Build 22621 x64 (name:APROV01Y9KY082) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.148     445    CR01YPR00068     [+] cooperativa.fin.ec\si.testing:Admin_1234 
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   VULNERABLE, PetitPotam
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     VULNERABLE, PetitPotam
+SMB         10.20.3.174     445    IT01B5MC015      [+] cooperativa.fin.ec\si.testing:Admin_1234 
+SMB         10.20.3.232     445    CAROPC           [-] Caropc\si.testing:Admin_1234 STATUS_LOGON_FAILURE 
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     VULNERABLE, PetitPotam
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      VULNERABLE, PetitPotam
+SMB         10.20.3.32      445    TC7000101        [+] cooperativa.fin.ec\si.testing:Admin_1234 
+SMB         10.20.3.128     445    APROV01Y9KY082   [+] cooperativa.fin.ec\si.testing:Admin_1234 
+COERCE_PLUS 10.20.3.32      445    TC7000101        VULNERABLE, PetitPotam
+SMB         10.20.3.147     445    ACRET01YE6D002   [*] Windows 10.0 Build 26100 x64 (name:ACRET01YE6D002) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.69      445    JOPE01Z54C001    [*] Windows 10.0 Build 26100 x64 (name:JOPE01Z54C001) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.172     445    JCC01WRBS001     [*] Windows 10.0 Build 26100 x64 (name:JCC01WRBS001) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.129     445    ACI01YKG3004     [*] Windows 10.0 Build 26100 x64 (name:ACI01YKG3004) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.191     445    RS01Z55R001      [*] Windows 10.0 Build 26100 x64 (name:RS01Z55R001) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.160     445    CI01Y42E002      [*] Windows 10.0 Build 26100 x64 (name:CI01Y42E002) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.228     445    IT015CG9003      [*] Windows 10.0 Build 26100 x64 (name:IT015CG9003) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.79      445    IT01RBN0009      [*] Windows 10.0 Build 26100 x64 (name:IT01RBN0009) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+SMB         10.20.3.147     445    ACRET01YE6D002   [+] cooperativa.fin.ec\si.testing:Admin_1234 
+SMB         10.20.3.69      445    JOPE01Z54C001    [+] cooperativa.fin.ec\si.testing:Admin_1234 
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   VULNERABLE, PetitPotam
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+SMB         10.20.3.172     445    JCC01WRBS001     [+] cooperativa.fin.ec\si.testing:Admin_1234 
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, efsrpc\EfsRpcOpenFileRaw
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   VULNERABLE, PetitPotam
+SMB         10.20.3.129     445    ACI01YKG3004     [+] cooperativa.fin.ec\si.testing:Admin_1234 
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    VULNERABLE, PetitPotam
+SMB         10.20.3.191     445    RS01Z55R001      [+] cooperativa.fin.ec\si.testing:Admin_1234 
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     VULNERABLE, PetitPotam
+SMB         10.20.3.160     445    CI01Y42E002      [+] cooperativa.fin.ec\si.testing:Admin_1234 
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+SMB         10.20.3.228     445    IT015CG9003      [+] cooperativa.fin.ec\si.testing:Admin_1234 
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     VULNERABLE, PetitPotam
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     VULNERABLE, PrinterBug
+SMB         10.20.3.79      445    IT01RBN0009      [+] cooperativa.fin.ec\si.testing:Admin_1234 
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      VULNERABLE, PetitPotam
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, efsrpc\EfsRpcOpenFileRaw
+SMB         10.20.3.26      445    CR01Y9LA0065     [*] Windows 10.0 Build 26100 x64 (name:CR01Y9LA0065) (domain:cooperativa.fin.ec) (signing:False) (SMBv1:False)
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, efsrpc\EfsRpcOpenFileRaw
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.208     445    AIS01XZ6M013     VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, efsrpc\EfsRpcOpenFileRaw
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      VULNERABLE, PetitPotam
+COERCE_PLUS 10.20.3.79      445    IT01RBN0009      VULNERABLE, PetitPotam
+COERCE_PLUS 10.20.3.160     445    CI01Y42E002      VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.160     445    CI01Y42E002      Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.160     445    CI01Y42E002      Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.160     445    CI01Y42E002      VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.174     445    IT01B5MC015      VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.165     445    ACART01XMF9007   VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.148     445    CR01YPR00068     VULNERABLE, MSEven
+SMB         10.20.3.26      445    CR01Y9LA0065     [-] Connection Error: The NETBIOS connection with the remote host timed out.
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, efsrpc\EfsRpcOpenFileRaw
+COERCE_PLUS 10.20.3.32      445    TC7000101        VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.32      445    TC7000101        Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.32      445    TC7000101        VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, efsrpc\EfsRpcOpenFileRaw
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, efsrpc\EfsRpcOpenFileRaw
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, efsrpc\EfsRpcOpenFileRaw
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.128     445    APROV01Y9KY082   VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.172     445    JCC01WRBS001     VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.69      445    JOPE01Z54C001    VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, efsrpc\EfsRpcOpenFileRaw
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, efsrpc\EfsRpcOpenFileRaw
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.129     445    ACI01YKG3004     VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.147     445    ACRET01YE6D002   VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, efsrpc\EfsRpcOpenFileRaw
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      VULNERABLE, PrinterBug
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotificationEx
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      Exploit Success, [dcerpc]\RpcRemoteFindFirstPrinterChangeNotification
+COERCE_PLUS 10.20.3.228     445    IT015CG9003      VULNERABLE, MSEven
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      Exploit Success, efsrpc\EfsRpcAddUsersToFile
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      Exploit Success, efsrpc\EfsRpcAddUsersToFileEx
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      Exploit Success, efsrpc\EfsRpcDecryptFileSrv
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      Exploit Success, efsrpc\EfsRpcDuplicateEncryptionInfoFile
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      Exploit Success, efsrpc\EfsRpcEncryptFileSrv
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      Exploit Success, efsrpc\EfsRpcFileKeyInfo
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      Exploit Success, efsrpc\EfsRpcQueryRecoveryAgents
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      Exploit Success, efsrpc\EfsRpcQueryUsersOnFile
+COERCE_PLUS 10.20.3.191     445    RS01Z55R001      Exploit Success, efsrpc\EfsRpcOpenFileRaw
+
